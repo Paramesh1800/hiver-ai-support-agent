@@ -1,0 +1,86 @@
+[
+  {
+    "id": "KB-101",
+    "intent": "Software_OS_Bug",
+    "customer_query": "My iPhone keeps freezing on the Apple logo after updating to iOS 17.2. Please help!",
+    "brand_reply": "We want to help get your iPhone back up and running! Check out these steps to force restart your iPhone: https://support.apple.com/HT201412. If the issue persists, connect to iTunes/Finder to restore."
+  },
+  {
+    "id": "KB-102",
+    "intent": "Software_OS_Bug",
+    "customer_query": "Wi-Fi disconnects randomly every 5 minutes on my MacBook Pro M2.",
+    "brand_reply": "Let's look into this Wi-Fi issue together. First, try resetting your Network Settings and restarting your router. Here's a guide to Wi-Fi troubleshooting: https://support.apple.com/HT202068."
+  },
+  {
+    "id": "KB-103",
+    "intent": "Battery_Power_Issue",
+    "customer_query": "My iPhone 14 Pro battery drops from 100% to 20% in 2 hours without heavy usage.",
+    "brand_reply": "Battery health is important! Head over to Settings > Battery > Battery Health & Charging to check Maximum Capacity. See details on maximizing battery life here: https://support.apple.com/HT201264."
+  },
+  {
+    "id": "KB-104",
+    "intent": "Battery_Power_Issue",
+    "customer_query": "My iPad gets extremely hot while charging and stops charging at 80%.",
+    "brand_reply": "iPods and iPads may pause charging when they get warm to protect battery longevity. Check out this guide on temperature management: https://support.apple.com/HT201678."
+  },
+  {
+    "id": "KB-105",
+    "intent": "Account_AppleID_Billing",
+    "customer_query": "I was charged $9.99 for Apple Music but I canceled my subscription last week! I need a refund.",
+    "brand_reply": "We can help clarify your charges! You can review your purchase history and request a refund directly at https://reportaproblem.apple.com. Please send us a DM if you need extra assistance."
+  },
+  {
+    "id": "KB-106",
+    "intent": "Account_AppleID_Billing",
+    "customer_query": "Locked out of my Apple ID and 2FA code is going to my old phone number.",
+    "brand_reply": "Your account security is our priority. You can initiate Account Recovery to regain access here: https://iforgot.apple.com. Please send us a DM so we can guide you through."
+  },
+  {
+    "id": "KB-107",
+    "intent": "Hardware_Device_Damage",
+    "customer_query": "Dropped my iPhone 13 in pool water. Sound is muffled. Is it covered under warranty?",
+    "brand_reply": "We can explain repair options! Standard Apple warranty doesn't cover liquid damage, but AppleCare+ does. Check service options here: https://support.apple.com/iphone/repair."
+  },
+  {
+    "id": "KB-108",
+    "intent": "Hardware_Device_Damage",
+    "customer_query": "My iPad screen is cracked across the front glass. How much for repair?",
+    "brand_reply": "You can view estimated screen replacement costs and schedule Genius Bar appointments here: https://support.apple.com/ipad/repair/service."
+  },
+  {
+    "id": "KB-109",
+    "intent": "Order_Shipping_Store",
+    "customer_query": "Ordered iPhone 15 Pro Max 3 days ago, still says Processing. When will it ship?",
+    "brand_reply": "We know you're excited for your order! You can track real-time order status and shipping updates at https://www.apple.com/orderstatus."
+  },
+  {
+    "id": "KB-110",
+    "intent": "Order_Shipping_Store",
+    "customer_query": "Can I trade in my iPhone 11 at an Apple Store for instant credit towards iPhone 15?",
+    "brand_reply": "Yes! You can bring your eligible device to any Apple Store for instant trade-in credit or estimate your value online: https://www.apple.com/shop/trade-in."
+  },
+  {
+    "id": "KB-111",
+    "intent": "Feature_HowTo",
+    "customer_query": "How do I transfer all my photos and data from Android to my new iPhone 15?",
+    "brand_reply": "Welcome to iPhone! You can use the 'Move to iOS' app on your Android device for a seamless transfer. Step-by-step instructions: https://support.apple.com/HT201196."
+  },
+  {
+    "id": "KB-112",
+    "intent": "Feature_HowTo",
+    "customer_query": "How do I record my screen on iPad with microphone audio enabled?",
+    "brand_reply": "Screen recording is quick to set up! Add Screen Recording in Settings > Control Center. Touch and hold the Record button to turn on Microphone: https://support.apple.com/HT207935."
+  },
+  {
+    "id": "KB-113",
+    "intent": "General_Complaint_Frustration",
+    "customer_query": "Apple customer support line kept me on hold for 45 minutes and then disconnected! Terrible service!",
+    "brand_reply": "We sincerely apologize for the wait and frustration this caused. We want to make this right\u2014please send us a DM with your contact details so we can reconnect with you directly."
+  },
+  {
+    "id": "KB-114",
+    "intent": "General_Complaint_Frustration",
+    "customer_query": "Why are Apple repairs so ridiculously expensive? $300 for a glass back replacement is insane.",
+    "brand_reply": "We understand repair costs are an important consideration. Our service pricing reflects original Apple parts and certified technician calibration. Details on AppleCare+ coverage: https://www.apple.com/support/products/."
+  }
+]

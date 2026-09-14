@@ -1,0 +1,10 @@
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+cicd-demo-app/
+hiver-ai-support-agent/
+reachinbox-email-scheduler/
+tichi-qa-assignment/

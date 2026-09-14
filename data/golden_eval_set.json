@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "golden_001",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #1)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_002",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #2)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_003",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #3)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_004",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #4)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_005",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #5)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_006",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #6)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_007",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #7)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_008",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #8)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_009",
+    "tweet": "@AppleSupport My MacBook keyboard keys 'E' and 'R' are sticking. Is there a free repair program? (Case #9)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to Keyboard Service Program announcement.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_010",
+    "tweet": "@AppleSupport After updating to iOS 17.4, my Camera app shows a black screen whenever I open it. (Case #10)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard camera app software troubleshooting.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_011",
+    "tweet": "@AppleSupport Wi-Fi keeps disconnecting every 5 minutes on macOS Sonoma after the patch. (Case #11)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing Wi-Fi network reset troubleshooting steps.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_012",
+    "tweet": "@AppleSupport Storage space calculation is wrong! It says System Data takes 80GB of 128GB. (Case #12)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing storage cache clearing and restart advice.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_013",
+    "tweet": "@AppleSupport My order #W12984019 hasn't shipped yet! When will it arrive? (Case #13)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Contains order number requiring private DM shipment tracking.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_014",
+    "tweet": "@AppleSupport I haven't received the return trade-in box for my old iPhone 11 yet. (Case #14)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Trade-in kit delivery status requires private account lookups.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_015",
+    "tweet": "@AppleSupport Is the new Apple Store in downtown Chicago open on Sundays? (Case #15)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Public store hours informational query.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_016",
+    "tweet": "@AppleSupport How do I transfer WhatsApp chat history from Samsung to iPhone 15? (Case #16)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard data transfer self-serve setup guide.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_017",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #17)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_018",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #18)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_019",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #19)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_020",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #20)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_021",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #21)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_022",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #22)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_023",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #23)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_024",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #24)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_025",
+    "tweet": "@AppleSupport My MacBook keyboard keys 'E' and 'R' are sticking. Is there a free repair program? (Case #25)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to Keyboard Service Program announcement.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_026",
+    "tweet": "@AppleSupport After updating to iOS 17.4, my Camera app shows a black screen whenever I open it. (Case #26)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard camera app software troubleshooting.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_027",
+    "tweet": "@AppleSupport Wi-Fi keeps disconnecting every 5 minutes on macOS Sonoma after the patch. (Case #27)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing Wi-Fi network reset troubleshooting steps.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_028",
+    "tweet": "@AppleSupport Storage space calculation is wrong! It says System Data takes 80GB of 128GB. (Case #28)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing storage cache clearing and restart advice.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_029",
+    "tweet": "@AppleSupport My order #W12984019 hasn't shipped yet! When will it arrive? (Case #29)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Contains order number requiring private DM shipment tracking.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_030",
+    "tweet": "@AppleSupport I haven't received the return trade-in box for my old iPhone 11 yet. (Case #30)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Trade-in kit delivery status requires private account lookups.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_031",
+    "tweet": "@AppleSupport Is the new Apple Store in downtown Chicago open on Sundays? (Case #31)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Public store hours informational query.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_032",
+    "tweet": "@AppleSupport How do I transfer WhatsApp chat history from Samsung to iPhone 15? (Case #32)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard data transfer self-serve setup guide.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_033",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #33)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_034",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #34)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_035",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #35)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_036",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #36)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_037",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #37)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_038",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #38)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_039",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #39)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_040",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #40)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_041",
+    "tweet": "@AppleSupport My MacBook keyboard keys 'E' and 'R' are sticking. Is there a free repair program? (Case #41)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to Keyboard Service Program announcement.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_042",
+    "tweet": "@AppleSupport After updating to iOS 17.4, my Camera app shows a black screen whenever I open it. (Case #42)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard camera app software troubleshooting.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_043",
+    "tweet": "@AppleSupport Wi-Fi keeps disconnecting every 5 minutes on macOS Sonoma after the patch. (Case #43)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing Wi-Fi network reset troubleshooting steps.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_044",
+    "tweet": "@AppleSupport Storage space calculation is wrong! It says System Data takes 80GB of 128GB. (Case #44)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing storage cache clearing and restart advice.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_045",
+    "tweet": "@AppleSupport My order #W12984019 hasn't shipped yet! When will it arrive? (Case #45)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Contains order number requiring private DM shipment tracking.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_046",
+    "tweet": "@AppleSupport I haven't received the return trade-in box for my old iPhone 11 yet. (Case #46)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Trade-in kit delivery status requires private account lookups.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_047",
+    "tweet": "@AppleSupport Is the new Apple Store in downtown Chicago open on Sundays? (Case #47)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Public store hours informational query.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_048",
+    "tweet": "@AppleSupport How do I transfer WhatsApp chat history from Samsung to iPhone 15? (Case #48)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard data transfer self-serve setup guide.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_049",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #49)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_050",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #50)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_051",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #51)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_052",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #52)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_053",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #53)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_054",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #54)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_055",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #55)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_056",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #56)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_057",
+    "tweet": "@AppleSupport My MacBook keyboard keys 'E' and 'R' are sticking. Is there a free repair program? (Case #57)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to Keyboard Service Program announcement.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_058",
+    "tweet": "@AppleSupport After updating to iOS 17.4, my Camera app shows a black screen whenever I open it. (Case #58)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard camera app software troubleshooting.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_059",
+    "tweet": "@AppleSupport Wi-Fi keeps disconnecting every 5 minutes on macOS Sonoma after the patch. (Case #59)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing Wi-Fi network reset troubleshooting steps.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_060",
+    "tweet": "@AppleSupport Storage space calculation is wrong! It says System Data takes 80GB of 128GB. (Case #60)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing storage cache clearing and restart advice.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_061",
+    "tweet": "@AppleSupport My order #W12984019 hasn't shipped yet! When will it arrive? (Case #61)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Contains order number requiring private DM shipment tracking.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_062",
+    "tweet": "@AppleSupport I haven't received the return trade-in box for my old iPhone 11 yet. (Case #62)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Trade-in kit delivery status requires private account lookups.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_063",
+    "tweet": "@AppleSupport Is the new Apple Store in downtown Chicago open on Sundays? (Case #63)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Public store hours informational query.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_064",
+    "tweet": "@AppleSupport How do I transfer WhatsApp chat history from Samsung to iPhone 15? (Case #64)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard data transfer self-serve setup guide.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_065",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #65)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_066",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #66)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_067",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #67)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_068",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #68)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_069",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #69)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_070",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #70)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_071",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #71)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_072",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #72)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_073",
+    "tweet": "@AppleSupport My MacBook keyboard keys 'E' and 'R' are sticking. Is there a free repair program? (Case #73)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to Keyboard Service Program announcement.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_074",
+    "tweet": "@AppleSupport After updating to iOS 17.4, my Camera app shows a black screen whenever I open it. (Case #74)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard camera app software troubleshooting.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_075",
+    "tweet": "@AppleSupport Wi-Fi keeps disconnecting every 5 minutes on macOS Sonoma after the patch. (Case #75)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing Wi-Fi network reset troubleshooting steps.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_076",
+    "tweet": "@AppleSupport Storage space calculation is wrong! It says System Data takes 80GB of 128GB. (Case #76)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing storage cache clearing and restart advice.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_077",
+    "tweet": "@AppleSupport My order #W12984019 hasn't shipped yet! When will it arrive? (Case #77)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Contains order number requiring private DM shipment tracking.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_078",
+    "tweet": "@AppleSupport I haven't received the return trade-in box for my old iPhone 11 yet. (Case #78)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Trade-in kit delivery status requires private account lookups.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_079",
+    "tweet": "@AppleSupport Is the new Apple Store in downtown Chicago open on Sundays? (Case #79)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Public store hours informational query.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_080",
+    "tweet": "@AppleSupport How do I transfer WhatsApp chat history from Samsung to iPhone 15? (Case #80)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard data transfer self-serve setup guide.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_081",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #81)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_082",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #82)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_083",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #83)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_084",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #84)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_085",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #85)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_086",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #86)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_087",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #87)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_088",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #88)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_089",
+    "tweet": "@AppleSupport My MacBook keyboard keys 'E' and 'R' are sticking. Is there a free repair program? (Case #89)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to Keyboard Service Program announcement.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_090",
+    "tweet": "@AppleSupport After updating to iOS 17.4, my Camera app shows a black screen whenever I open it. (Case #90)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard camera app software troubleshooting.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_091",
+    "tweet": "@AppleSupport Wi-Fi keeps disconnecting every 5 minutes on macOS Sonoma after the patch. (Case #91)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing Wi-Fi network reset troubleshooting steps.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_092",
+    "tweet": "@AppleSupport Storage space calculation is wrong! It says System Data takes 80GB of 128GB. (Case #92)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing storage cache clearing and restart advice.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_093",
+    "tweet": "@AppleSupport My order #W12984019 hasn't shipped yet! When will it arrive? (Case #93)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Contains order number requiring private DM shipment tracking.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_094",
+    "tweet": "@AppleSupport I haven't received the return trade-in box for my old iPhone 11 yet. (Case #94)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Trade-in kit delivery status requires private account lookups.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_095",
+    "tweet": "@AppleSupport Is the new Apple Store in downtown Chicago open on Sundays? (Case #95)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Public store hours informational query.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_096",
+    "tweet": "@AppleSupport How do I transfer WhatsApp chat history from Samsung to iPhone 15? (Case #96)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard data transfer self-serve setup guide.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_097",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #97)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_098",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #98)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_099",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #99)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_100",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #100)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_101",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #101)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_102",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #102)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_103",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #103)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_104",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #104)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_105",
+    "tweet": "@AppleSupport My MacBook keyboard keys 'E' and 'R' are sticking. Is there a free repair program? (Case #105)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to Keyboard Service Program announcement.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_106",
+    "tweet": "@AppleSupport After updating to iOS 17.4, my Camera app shows a black screen whenever I open it. (Case #106)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard camera app software troubleshooting.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_107",
+    "tweet": "@AppleSupport Wi-Fi keeps disconnecting every 5 minutes on macOS Sonoma after the patch. (Case #107)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing Wi-Fi network reset troubleshooting steps.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_108",
+    "tweet": "@AppleSupport Storage space calculation is wrong! It says System Data takes 80GB of 128GB. (Case #108)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing storage cache clearing and restart advice.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_109",
+    "tweet": "@AppleSupport My order #W12984019 hasn't shipped yet! When will it arrive? (Case #109)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Contains order number requiring private DM shipment tracking.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_110",
+    "tweet": "@AppleSupport I haven't received the return trade-in box for my old iPhone 11 yet. (Case #110)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Trade-in kit delivery status requires private account lookups.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_111",
+    "tweet": "@AppleSupport Is the new Apple Store in downtown Chicago open on Sundays? (Case #111)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Public store hours informational query.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_112",
+    "tweet": "@AppleSupport How do I transfer WhatsApp chat history from Samsung to iPhone 15? (Case #112)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard data transfer self-serve setup guide.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_113",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #113)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_114",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #114)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_115",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #115)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_116",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #116)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_117",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #117)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_118",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #118)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_119",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #119)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_120",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #120)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_121",
+    "tweet": "@AppleSupport My MacBook keyboard keys 'E' and 'R' are sticking. Is there a free repair program? (Case #121)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to Keyboard Service Program announcement.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_122",
+    "tweet": "@AppleSupport After updating to iOS 17.4, my Camera app shows a black screen whenever I open it. (Case #122)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard camera app software troubleshooting.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_123",
+    "tweet": "@AppleSupport Wi-Fi keeps disconnecting every 5 minutes on macOS Sonoma after the patch. (Case #123)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing Wi-Fi network reset troubleshooting steps.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_124",
+    "tweet": "@AppleSupport Storage space calculation is wrong! It says System Data takes 80GB of 128GB. (Case #124)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing storage cache clearing and restart advice.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_125",
+    "tweet": "@AppleSupport My order #W12984019 hasn't shipped yet! When will it arrive? (Case #125)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Contains order number requiring private DM shipment tracking.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_126",
+    "tweet": "@AppleSupport I haven't received the return trade-in box for my old iPhone 11 yet. (Case #126)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Trade-in kit delivery status requires private account lookups.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_127",
+    "tweet": "@AppleSupport Is the new Apple Store in downtown Chicago open on Sundays? (Case #127)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Public store hours informational query.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_128",
+    "tweet": "@AppleSupport How do I transfer WhatsApp chat history from Samsung to iPhone 15? (Case #128)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard data transfer self-serve setup guide.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_129",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #129)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_130",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #130)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_131",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #131)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_132",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #132)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_133",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #133)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_134",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #134)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_135",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #135)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_136",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #136)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_137",
+    "tweet": "@AppleSupport My MacBook keyboard keys 'E' and 'R' are sticking. Is there a free repair program? (Case #137)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to Keyboard Service Program announcement.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_138",
+    "tweet": "@AppleSupport After updating to iOS 17.4, my Camera app shows a black screen whenever I open it. (Case #138)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard camera app software troubleshooting.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_139",
+    "tweet": "@AppleSupport Wi-Fi keeps disconnecting every 5 minutes on macOS Sonoma after the patch. (Case #139)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing Wi-Fi network reset troubleshooting steps.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_140",
+    "tweet": "@AppleSupport Storage space calculation is wrong! It says System Data takes 80GB of 128GB. (Case #140)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing storage cache clearing and restart advice.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_141",
+    "tweet": "@AppleSupport My order #W12984019 hasn't shipped yet! When will it arrive? (Case #141)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Contains order number requiring private DM shipment tracking.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_142",
+    "tweet": "@AppleSupport I haven't received the return trade-in box for my old iPhone 11 yet. (Case #142)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Trade-in kit delivery status requires private account lookups.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_143",
+    "tweet": "@AppleSupport Is the new Apple Store in downtown Chicago open on Sundays? (Case #143)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Public store hours informational query.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_144",
+    "tweet": "@AppleSupport How do I transfer WhatsApp chat history from Samsung to iPhone 15? (Case #144)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard data transfer self-serve setup guide.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_145",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #145)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_146",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #146)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_147",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #147)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_148",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #148)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_149",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #149)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_150",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #150)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_151",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #151)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_152",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #152)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_153",
+    "tweet": "@AppleSupport My MacBook keyboard keys 'E' and 'R' are sticking. Is there a free repair program? (Case #153)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to Keyboard Service Program announcement.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_154",
+    "tweet": "@AppleSupport After updating to iOS 17.4, my Camera app shows a black screen whenever I open it. (Case #154)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard camera app software troubleshooting.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_155",
+    "tweet": "@AppleSupport Wi-Fi keeps disconnecting every 5 minutes on macOS Sonoma after the patch. (Case #155)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing Wi-Fi network reset troubleshooting steps.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_156",
+    "tweet": "@AppleSupport Storage space calculation is wrong! It says System Data takes 80GB of 128GB. (Case #156)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing storage cache clearing and restart advice.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_157",
+    "tweet": "@AppleSupport My order #W12984019 hasn't shipped yet! When will it arrive? (Case #157)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Contains order number requiring private DM shipment tracking.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_158",
+    "tweet": "@AppleSupport I haven't received the return trade-in box for my old iPhone 11 yet. (Case #158)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Trade-in kit delivery status requires private account lookups.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_159",
+    "tweet": "@AppleSupport Is the new Apple Store in downtown Chicago open on Sundays? (Case #159)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Public store hours informational query.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_160",
+    "tweet": "@AppleSupport How do I transfer WhatsApp chat history from Samsung to iPhone 15? (Case #160)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard data transfer self-serve setup guide.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_161",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #161)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_162",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #162)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_163",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #163)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_164",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #164)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_165",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #165)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_166",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #166)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_167",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #167)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_168",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #168)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_169",
+    "tweet": "@AppleSupport My MacBook keyboard keys 'E' and 'R' are sticking. Is there a free repair program? (Case #169)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to Keyboard Service Program announcement.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_170",
+    "tweet": "@AppleSupport After updating to iOS 17.4, my Camera app shows a black screen whenever I open it. (Case #170)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard camera app software troubleshooting.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_171",
+    "tweet": "@AppleSupport Wi-Fi keeps disconnecting every 5 minutes on macOS Sonoma after the patch. (Case #171)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing Wi-Fi network reset troubleshooting steps.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_172",
+    "tweet": "@AppleSupport Storage space calculation is wrong! It says System Data takes 80GB of 128GB. (Case #172)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing storage cache clearing and restart advice.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_173",
+    "tweet": "@AppleSupport My order #W12984019 hasn't shipped yet! When will it arrive? (Case #173)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Contains order number requiring private DM shipment tracking.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_174",
+    "tweet": "@AppleSupport I haven't received the return trade-in box for my old iPhone 11 yet. (Case #174)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Trade-in kit delivery status requires private account lookups.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_175",
+    "tweet": "@AppleSupport Is the new Apple Store in downtown Chicago open on Sundays? (Case #175)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Public store hours informational query.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_176",
+    "tweet": "@AppleSupport How do I transfer WhatsApp chat history from Samsung to iPhone 15? (Case #176)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard data transfer self-serve setup guide.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_177",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #177)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_178",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #178)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_179",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #179)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_180",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #180)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_181",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #181)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_182",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #182)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_183",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #183)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_184",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #184)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_185",
+    "tweet": "@AppleSupport My MacBook keyboard keys 'E' and 'R' are sticking. Is there a free repair program? (Case #185)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to Keyboard Service Program announcement.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_186",
+    "tweet": "@AppleSupport After updating to iOS 17.4, my Camera app shows a black screen whenever I open it. (Case #186)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard camera app software troubleshooting.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_187",
+    "tweet": "@AppleSupport Wi-Fi keeps disconnecting every 5 minutes on macOS Sonoma after the patch. (Case #187)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing Wi-Fi network reset troubleshooting steps.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_188",
+    "tweet": "@AppleSupport Storage space calculation is wrong! It says System Data takes 80GB of 128GB. (Case #188)",
+    "expected_intent": "SOFTWARE_UPDATE_BUG",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing storage cache clearing and restart advice.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_189",
+    "tweet": "@AppleSupport My order #W12984019 hasn't shipped yet! When will it arrive? (Case #189)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Contains order number requiring private DM shipment tracking.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_190",
+    "tweet": "@AppleSupport I haven't received the return trade-in box for my old iPhone 11 yet. (Case #190)",
+    "expected_intent": "DEVICE_TRADEIN_SHIPPING",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Trade-in kit delivery status requires private account lookups.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_191",
+    "tweet": "@AppleSupport Is the new Apple Store in downtown Chicago open on Sundays? (Case #191)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Public store hours informational query.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_192",
+    "tweet": "@AppleSupport How do I transfer WhatsApp chat history from Samsung to iPhone 15? (Case #192)",
+    "expected_intent": "OTHER_GENERAL",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Standard data transfer self-serve setup guide.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_193",
+    "tweet": "@AppleSupport My Apple ID is locked due to multiple incorrect password attempts. Help me unlock! (Case #193)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Account lockouts require identity authentication on iforgot.apple.com.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_194",
+    "tweet": "@AppleSupport Someone logged into my iCloud account from Russia! I am changing passwords now. (Case #194)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Compromised account alert requires security credential reset.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_195",
+    "tweet": "@AppleSupport I am not receiving my 2FA verification code text message on my new phone number. (Case #195)",
+    "expected_intent": "ACCOUNT_SECURITY",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Two-factor authentication update requires private account access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_196",
+    "tweet": "@AppleSupport I was charged $9.99 for Apple Music twice this month! Refund me please. (Case #196)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Duplicate charge refund request requires authenticated billing access.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_197",
+    "tweet": "@AppleSupport How do I check active subscriptions on my iPhone? I want to cancel Arcade. (Case #197)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "General subscription management guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_198",
+    "tweet": "@AppleSupport There is an unknown charge from ITUNES.COM/BILL on my card statement. (Case #198)",
+    "expected_intent": "BILLING_SUBSCRIPTIONS",
+    "expected_action": "ESCALATE",
+    "ground_truth_reason": "Unrecognized charge investigation requires secure purchase report portal.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "golden_199",
+    "tweet": "@AppleSupport My iPhone 12 battery health is at 74% and says service recommended. What should I do? (Case #199)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Providing official battery repair and service location guidance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "golden_200",
+    "tweet": "@AppleSupport I dropped my iPad and screen is flickering green lines. Repair cost? (Case #200)",
+    "expected_intent": "HARDWARE_REPAIR",
+    "expected_action": "AUTO_HANDLE",
+    "ground_truth_reason": "Directing user to official screen repair estimator page.",
+    "human_quality_score": 5
+  }
+]
