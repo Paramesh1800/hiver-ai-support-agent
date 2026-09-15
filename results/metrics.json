@@ -1,34 +1,42 @@
 {
   "Trivial Baseline": {
     "overall_metrics": {
-      "intent_macro_f1": 0.1875,
-      "intent_accuracy": 0.6,
+      "intent_macro_f1": 0.1556,
+      "intent_accuracy": 0.875,
       "action_escalate_recall": 0.0,
       "action_escalate_precision": 0.0,
       "action_escalate_f1": 0.0,
-      "action_accuracy": 0.95
+      "action_accuracy": 0.975
     },
     "judge_rubric_scores": {
-      "groundedness": 4.0,
-      "correctness": 5.0,
-      "tone_fit": 5.0,
-      "actionability": 5.0,
-      "overall_judge_score": 4.75
+      "groundedness": 1.0,
+      "correctness": 4.0,
+      "tone_fit": 4.0,
+      "actionability": 2.0,
+      "overall_judge_score": 2.75
     },
     "slice_strata_metrics": {
       "pure_random": {
-        "intent_macro_f1": 0.1875,
-        "intent_accuracy": 0.6,
+        "intent_macro_f1": 0.1228,
+        "intent_accuracy": 0.5833,
         "action_escalate_recall": 0.0,
         "action_escalate_precision": 0.0,
         "action_escalate_f1": 0.0,
-        "action_accuracy": 0.95
+        "action_accuracy": 0.9167
+      },
+      "stratified_low_confidence": {
+        "intent_macro_f1": 1.0,
+        "intent_accuracy": 1.0,
+        "action_escalate_recall": 0.0,
+        "action_escalate_precision": 0.0,
+        "action_escalate_f1": 0.0,
+        "action_accuracy": 1.0
       }
     },
     "calibration_deciles": {
       "0.5": {
-        "correct": 12,
-        "total": 20
+        "correct": 175,
+        "total": 200
       },
       "0.6": {
         "correct": 0,
@@ -50,64 +58,72 @@
   },
   "Simple Baseline (TF-IDF + Cosine)": {
     "overall_metrics": {
-      "intent_macro_f1": 0.708,
-      "intent_accuracy": 0.9,
-      "action_escalate_recall": 1.0,
-      "action_escalate_precision": 0.3333,
-      "action_escalate_f1": 0.5,
-      "action_accuracy": 0.9
+      "intent_macro_f1": 0.5817,
+      "intent_accuracy": 0.96,
+      "action_escalate_recall": 0.6,
+      "action_escalate_precision": 0.25,
+      "action_escalate_f1": 0.3529,
+      "action_accuracy": 0.945
     },
     "judge_rubric_scores": {
-      "groundedness": 3.55,
-      "correctness": 4.5,
-      "tone_fit": 4.2,
-      "actionability": 3.8,
-      "overall_judge_score": 4.01
+      "groundedness": 3.69,
+      "correctness": 5.0,
+      "tone_fit": 5.0,
+      "actionability": 4.11,
+      "overall_judge_score": 4.45
     },
     "slice_strata_metrics": {
       "pure_random": {
-        "intent_macro_f1": 0.708,
-        "intent_accuracy": 0.9,
-        "action_escalate_recall": 1.0,
-        "action_escalate_precision": 0.3333,
+        "intent_macro_f1": 0.5756,
+        "intent_accuracy": 0.8833,
+        "action_escalate_recall": 0.6,
+        "action_escalate_precision": 0.4286,
         "action_escalate_f1": 0.5,
         "action_accuracy": 0.9
+      },
+      "stratified_low_confidence": {
+        "intent_macro_f1": 0.4982,
+        "intent_accuracy": 0.9929,
+        "action_escalate_recall": 0.0,
+        "action_escalate_precision": 0.0,
+        "action_escalate_f1": 0.0,
+        "action_accuracy": 0.9643
       }
     },
     "calibration_deciles": {
       "0.5": {
-        "correct": 0,
-        "total": 0
+        "correct": 10,
+        "total": 15
       },
       "0.6": {
-        "correct": 4,
-        "total": 4
+        "correct": 33,
+        "total": 33
       },
       "0.7": {
-        "correct": 4,
-        "total": 4
+        "correct": 73,
+        "total": 73
       },
       "0.8": {
-        "correct": 10,
-        "total": 10
+        "correct": 66,
+        "total": 66
       },
       "0.9": {
-        "correct": 0,
-        "total": 0
+        "correct": 8,
+        "total": 8
       }
     }
   },
   "Main LLM Agent (Grounded + Guardrails)": {
     "overall_metrics": {
-      "intent_macro_f1": 0.7308,
-      "intent_accuracy": 0.95,
+      "intent_macro_f1": 0.8915,
+      "intent_accuracy": 0.985,
       "action_escalate_recall": 1.0,
-      "action_escalate_precision": 1.0,
-      "action_escalate_f1": 1.0,
-      "action_accuracy": 1.0
+      "action_escalate_precision": 0.7143,
+      "action_escalate_f1": 0.8333,
+      "action_accuracy": 0.99
     },
     "judge_rubric_scores": {
-      "groundedness": 5.0,
+      "groundedness": 4.99,
       "correctness": 5.0,
       "tone_fit": 5.0,
       "actionability": 5.0,
@@ -115,34 +131,42 @@
     },
     "slice_strata_metrics": {
       "pure_random": {
-        "intent_macro_f1": 0.7308,
+        "intent_macro_f1": 0.8895,
         "intent_accuracy": 0.95,
         "action_escalate_recall": 1.0,
-        "action_escalate_precision": 1.0,
-        "action_escalate_f1": 1.0,
+        "action_escalate_precision": 0.7143,
+        "action_escalate_f1": 0.8333,
+        "action_accuracy": 0.9667
+      },
+      "stratified_low_confidence": {
+        "intent_macro_f1": 1.0,
+        "intent_accuracy": 1.0,
+        "action_escalate_recall": 0.0,
+        "action_escalate_precision": 0.0,
+        "action_escalate_f1": 0.0,
         "action_accuracy": 1.0
       }
     },
     "calibration_deciles": {
       "0.5": {
-        "correct": 11,
-        "total": 11
+        "correct": 172,
+        "total": 172
       },
       "0.6": {
         "correct": 0,
         "total": 0
       },
       "0.7": {
-        "correct": 3,
-        "total": 3
+        "correct": 5,
+        "total": 5
       },
       "0.8": {
-        "correct": 5,
-        "total": 6
+        "correct": 16,
+        "total": 19
       },
       "0.9": {
-        "correct": 0,
-        "total": 0
+        "correct": 4,
+        "total": 4
       }
     }
   }

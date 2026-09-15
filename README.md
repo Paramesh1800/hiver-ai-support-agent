@@ -78,7 +78,7 @@ Hiver/
 │
 ├── results/
 │   ├── metrics.json            # Complete metric JSON output
-│   ├── judge_human_agreement.json # Cohen's kappa (k = 0.3902) output
+│   ├── judge_human_agreement.json # Cohen's kappa (k = 0.0423) output
 │   └── failure_analysis.json   # Verbatim error clusters
 │
 └── report/

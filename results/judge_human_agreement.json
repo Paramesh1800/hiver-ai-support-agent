@@ -1,6 +1,926 @@
 {
   "sample_size": 50,
-  "cohens_kappa_quadratic": 0.3902,
-  "spearman_correlation": 0.3932,
-  "judge_trustworthy": false
+  "cohens_kappa_quadratic_overall": 0.0423,
+  "spearman_correlation_overall": -0.0882,
+  "judge_trustworthy": false,
+  "per_axis_metrics": {
+    "groundedness": {
+      "cohens_kappa_quadratic": 0.0562,
+      "spearman_correlation": 0.1214
+    },
+    "correctness": {
+      "cohens_kappa_quadratic": -0.1001,
+      "spearman_correlation": -0.1724
+    },
+    "tone_fit": {
+      "cohens_kappa_quadratic": 0.0707,
+      "spearman_correlation": 0.1278
+    },
+    "actionability": {
+      "cohens_kappa_quadratic": -0.1115,
+      "spearman_correlation": -0.1602
+    }
+  },
+  "comparison_details": [
+    {
+      "id": "golden_164",
+      "human_overall": 4.5,
+      "judge_overall": 2.75,
+      "delta": 1.75,
+      "human_scores": {
+        "groundedness": 3,
+        "correctness": 5,
+        "tone_fit": 5,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_029",
+      "human_overall": 5.0,
+      "judge_overall": 4.5,
+      "delta": 0.5,
+      "human_scores": {
+        "groundedness": 5,
+        "correctness": 5,
+        "tone_fit": 5,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_007",
+      "human_overall": 5.0,
+      "judge_overall": 5.0,
+      "delta": 0.0,
+      "human_scores": {
+        "groundedness": 5,
+        "correctness": 5,
+        "tone_fit": 5,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_190",
+      "human_overall": 5.0,
+      "judge_overall": 2.75,
+      "delta": 2.25,
+      "human_scores": {
+        "groundedness": 5,
+        "correctness": 5,
+        "tone_fit": 5,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_071",
+      "human_overall": 5.0,
+      "judge_overall": 5.0,
+      "delta": 0.0,
+      "human_scores": {
+        "groundedness": 5,
+        "correctness": 5,
+        "tone_fit": 5,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_063",
+      "human_overall": 4.5,
+      "judge_overall": 5.0,
+      "delta": 0.5,
+      "human_scores": {
+        "groundedness": 5,
+        "correctness": 5,
+        "tone_fit": 5,
+        "actionability": 3
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_058",
+      "human_overall": 4.25,
+      "judge_overall": 2.75,
+      "delta": 1.5,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 5,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_036",
+      "human_overall": 3.75,
+      "judge_overall": 4.0,
+      "delta": 0.25,
+      "human_scores": {
+        "groundedness": 3,
+        "correctness": 3,
+        "tone_fit": 4,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 3.0
+      }
+    },
+    {
+      "id": "golden_189",
+      "human_overall": 4.0,
+      "judge_overall": 5.0,
+      "delta": 1.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 3,
+        "tone_fit": 4,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_027",
+      "human_overall": 4.25,
+      "judge_overall": 2.75,
+      "delta": 1.5,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 5,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_174",
+      "human_overall": 4.25,
+      "judge_overall": 4.0,
+      "delta": 0.25,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 5,
+        "tone_fit": 4,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 3.0
+      }
+    },
+    {
+      "id": "golden_140",
+      "human_overall": 4.5,
+      "judge_overall": 5.0,
+      "delta": 0.5,
+      "human_scores": {
+        "groundedness": 5,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_023",
+      "human_overall": 4.0,
+      "judge_overall": 2.75,
+      "delta": 1.25,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 3,
+        "tone_fit": 4,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_152",
+      "human_overall": 4.0,
+      "judge_overall": 4.0,
+      "delta": 0.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 3,
+        "tone_fit": 4,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 3.0
+      }
+    },
+    {
+      "id": "golden_109",
+      "human_overall": 4.0,
+      "judge_overall": 5.0,
+      "delta": 1.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 3,
+        "tone_fit": 4,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_009",
+      "human_overall": 3.75,
+      "judge_overall": 2.75,
+      "delta": 1.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_008",
+      "human_overall": 3.75,
+      "judge_overall": 5.0,
+      "delta": 1.25,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_024",
+      "human_overall": 3.75,
+      "judge_overall": 5.0,
+      "delta": 1.25,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_056",
+      "human_overall": 3.75,
+      "judge_overall": 2.75,
+      "delta": 1.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_060",
+      "human_overall": 4.0,
+      "judge_overall": 4.0,
+      "delta": 0.0,
+      "human_scores": {
+        "groundedness": 3,
+        "correctness": 4,
+        "tone_fit": 5,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 3.0
+      }
+    },
+    {
+      "id": "golden_130",
+      "human_overall": 3.75,
+      "judge_overall": 5.0,
+      "delta": 1.25,
+      "human_scores": {
+        "groundedness": 3,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_155",
+      "human_overall": 3.75,
+      "judge_overall": 2.75,
+      "delta": 1.0,
+      "human_scores": {
+        "groundedness": 3,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_198",
+      "human_overall": 3.75,
+      "judge_overall": 4.0,
+      "delta": 0.25,
+      "human_scores": {
+        "groundedness": 3,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 3.0
+      }
+    },
+    {
+      "id": "golden_144",
+      "human_overall": 3.75,
+      "judge_overall": 5.0,
+      "delta": 1.25,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_051",
+      "human_overall": 4.0,
+      "judge_overall": 2.75,
+      "delta": 1.25,
+      "human_scores": {
+        "groundedness": 5,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_167",
+      "human_overall": 4.0,
+      "judge_overall": 4.5,
+      "delta": 0.5,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_192",
+      "human_overall": 4.0,
+      "judge_overall": 5.0,
+      "delta": 1.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 3,
+        "tone_fit": 5,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_108",
+      "human_overall": 4.0,
+      "judge_overall": 2.75,
+      "delta": 1.25,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 5,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_057",
+      "human_overall": 4.0,
+      "judge_overall": 5.0,
+      "delta": 1.0,
+      "human_scores": {
+        "groundedness": 3,
+        "correctness": 4,
+        "tone_fit": 5,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_115",
+      "human_overall": 3.75,
+      "judge_overall": 5.0,
+      "delta": 1.25,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_151",
+      "human_overall": 3.75,
+      "judge_overall": 2.75,
+      "delta": 1.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_072",
+      "human_overall": 3.5,
+      "judge_overall": 4.0,
+      "delta": 0.5,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 3
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 3.0
+      }
+    },
+    {
+      "id": "golden_002",
+      "human_overall": 3.5,
+      "judge_overall": 5.0,
+      "delta": 1.5,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 3
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_041",
+      "human_overall": 3.75,
+      "judge_overall": 2.75,
+      "delta": 1.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_186",
+      "human_overall": 4.0,
+      "judge_overall": 4.0,
+      "delta": 0.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 3.0
+      }
+    },
+    {
+      "id": "golden_088",
+      "human_overall": 3.5,
+      "judge_overall": 5.0,
+      "delta": 1.5,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 3,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_169",
+      "human_overall": 3.75,
+      "judge_overall": 2.75,
+      "delta": 1.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_040",
+      "human_overall": 3.75,
+      "judge_overall": 4.0,
+      "delta": 0.25,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 3.0
+      }
+    },
+    {
+      "id": "golden_182",
+      "human_overall": 3.75,
+      "judge_overall": 5.0,
+      "delta": 1.25,
+      "human_scores": {
+        "groundedness": 5,
+        "correctness": 4,
+        "tone_fit": 3,
+        "actionability": 3
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_087",
+      "human_overall": 4.0,
+      "judge_overall": 2.75,
+      "delta": 1.25,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_191",
+      "human_overall": 3.75,
+      "judge_overall": 4.5,
+      "delta": 0.75,
+      "human_scores": {
+        "groundedness": 3,
+        "correctness": 4,
+        "tone_fit": 5,
+        "actionability": 3
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_183",
+      "human_overall": 4.0,
+      "judge_overall": 5.0,
+      "delta": 1.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 5,
+        "actionability": 3
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_098",
+      "human_overall": 4.5,
+      "judge_overall": 2.75,
+      "delta": 1.75,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 5,
+        "tone_fit": 4,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_025",
+      "human_overall": 4.0,
+      "judge_overall": 4.0,
+      "delta": 0.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 3.0
+      }
+    },
+    {
+      "id": "golden_092",
+      "human_overall": 4.25,
+      "judge_overall": 5.0,
+      "delta": 0.75,
+      "human_scores": {
+        "groundedness": 5,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_089",
+      "human_overall": 4.5,
+      "judge_overall": 2.75,
+      "delta": 1.75,
+      "human_scores": {
+        "groundedness": 5,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_068",
+      "human_overall": 4.25,
+      "judge_overall": 4.0,
+      "delta": 0.25,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 5,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 3.0
+      }
+    },
+    {
+      "id": "golden_012",
+      "human_overall": 4.0,
+      "judge_overall": 5.0,
+      "delta": 1.0,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 4
+      },
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    },
+    {
+      "id": "golden_118",
+      "human_overall": 4.25,
+      "judge_overall": 2.75,
+      "delta": 1.5,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 1.0,
+        "correctness": 4.0,
+        "tone_fit": 4.0,
+        "actionability": 2.0
+      }
+    },
+    {
+      "id": "golden_138",
+      "human_overall": 4.25,
+      "judge_overall": 4.5,
+      "delta": 0.25,
+      "human_scores": {
+        "groundedness": 4,
+        "correctness": 4,
+        "tone_fit": 4,
+        "actionability": 5
+      },
+      "judge_scores": {
+        "groundedness": 3.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0
+      }
+    }
+  ]
 }

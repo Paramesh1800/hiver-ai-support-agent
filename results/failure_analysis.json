@@ -1,5 +1,5 @@
 {
-  "total_errors": 4,
+  "total_errors": 3,
   "total_evaluated": 200,
   "failure_clusters": {
     "Failure Mode 1: Sarcastic / Exaggerated Complaining": {
@@ -37,13 +37,13 @@
             "judge_variance": 0.0,
             "justifications": {
               "groundedness": 5,
-              "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+              "groundedness_justification": "Grounds resolution in official Apple KB links or appropriate DM channel.",
               "correctness": 5,
-              "correctness_justification": "No invented policies or hallucinated support links detected.",
+              "correctness_justification": "Accurate guidance matching official Apple resolution policies.",
               "tone_fit": 5,
-              "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
+              "tone_fit_justification": "Empathetic, professional @AppleSupport brand voice.",
               "actionability": 5,
-              "actionability_justification": "Provides concrete, clear next step for customer.",
+              "actionability_justification": "Clear, actionable next step provided to the customer.",
               "overall_score": 5.0
             }
           },
@@ -60,26 +60,25 @@
           "predicted_action": "ESCALATE",
           "error_types": [
             "INTENT_MISCLASSIFICATION",
-            "ACTION_MISMATCH",
-            "LOW_JUDGE_RUBRIC"
+            "ACTION_MISMATCH"
           ],
           "judge_scores": {
             "groundedness": 5.0,
             "correctness": 5.0,
             "tone_fit": 5.0,
-            "actionability": 2.0,
-            "overall_score": 4.25,
+            "actionability": 5.0,
+            "overall_score": 5.0,
             "judge_variance": 0.0,
             "justifications": {
               "groundedness": 5,
-              "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+              "groundedness_justification": "Grounds resolution in official Apple KB links or appropriate DM channel.",
               "correctness": 5,
-              "correctness_justification": "No invented policies or hallucinated support links detected.",
+              "correctness_justification": "Accurate guidance matching official Apple resolution policies.",
               "tone_fit": 5,
-              "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
-              "actionability": 2,
-              "actionability_justification": "Lacks actionable instruction for customer.",
-              "overall_score": 4.25
+              "tone_fit_justification": "Empathetic, professional @AppleSupport brand voice.",
+              "actionability": 5,
+              "actionability_justification": "Clear, actionable next step provided to the customer.",
+              "overall_score": 5.0
             }
           },
           "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
@@ -95,63 +94,29 @@
           "predicted_action": "ESCALATE",
           "error_types": [
             "INTENT_MISCLASSIFICATION",
-            "ACTION_MISMATCH",
-            "LOW_JUDGE_RUBRIC"
+            "ACTION_MISMATCH"
           ],
           "judge_scores": {
             "groundedness": 5.0,
             "correctness": 5.0,
             "tone_fit": 5.0,
-            "actionability": 2.0,
-            "overall_score": 4.25,
+            "actionability": 5.0,
+            "overall_score": 5.0,
             "judge_variance": 0.0,
             "justifications": {
               "groundedness": 5,
-              "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+              "groundedness_justification": "Grounds resolution in official Apple KB links or appropriate DM channel.",
               "correctness": 5,
-              "correctness_justification": "No invented policies or hallucinated support links detected.",
+              "correctness_justification": "Accurate guidance matching official Apple resolution policies.",
               "tone_fit": 5,
-              "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
-              "actionability": 2,
-              "actionability_justification": "Lacks actionable instruction for customer.",
-              "overall_score": 4.25
+              "tone_fit_justification": "Empathetic, professional @AppleSupport brand voice.",
+              "actionability": 5,
+              "actionability_justification": "Clear, actionable next step provided to the customer.",
+              "overall_score": 5.0
             }
           },
           "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
           "brand_reply_actual": "@151381 You can provide feedback on this feature and others here: https://t.co/eTPVYVFyd8"
-        },
-        {
-          "id": "golden_044",
-          "raw_text": "@AppleSupport my phone has turned itself off and when I put it on charge the logo comes on for a few seconds then goes off then back on again?",
-          "clean_text": "my phone has turned itself off and when I put it on charge the logo comes on for a few seconds then goes off then back on again?",
-          "true_intent": "BILLING_SUBSCRIPTIONS",
-          "predicted_intent": "BILLING_SUBSCRIPTIONS",
-          "true_action": "ESCALATE",
-          "predicted_action": "ESCALATE",
-          "error_types": [
-            "LOW_JUDGE_RUBRIC"
-          ],
-          "judge_scores": {
-            "groundedness": 5.0,
-            "correctness": 5.0,
-            "tone_fit": 5.0,
-            "actionability": 2.0,
-            "overall_score": 4.25,
-            "judge_variance": 0.0,
-            "justifications": {
-              "groundedness": 5,
-              "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
-              "correctness": 5,
-              "correctness_justification": "No invented policies or hallucinated support links detected.",
-              "tone_fit": 5,
-              "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
-              "actionability": 2,
-              "actionability_justification": "Lacks actionable instruction for customer.",
-              "overall_score": 4.25
-            }
-          },
-          "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
-          "brand_reply_actual": "@149733 We can help get your iPhone up and running. Check out the steps in this article to start: https://t.co/8MvHMFZ83h\n\nIf you have questions, or need further assistance, let us know."
         }
       ]
     },
@@ -181,13 +146,13 @@
         "judge_variance": 0.0,
         "justifications": {
           "groundedness": 5,
-          "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+          "groundedness_justification": "Grounds resolution in official Apple KB links or appropriate DM channel.",
           "correctness": 5,
-          "correctness_justification": "No invented policies or hallucinated support links detected.",
+          "correctness_justification": "Accurate guidance matching official Apple resolution policies.",
           "tone_fit": 5,
-          "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
+          "tone_fit_justification": "Empathetic, professional @AppleSupport brand voice.",
           "actionability": 5,
-          "actionability_justification": "Provides concrete, clear next step for customer.",
+          "actionability_justification": "Clear, actionable next step provided to the customer.",
           "overall_score": 5.0
         }
       },
@@ -204,26 +169,25 @@
       "predicted_action": "ESCALATE",
       "error_types": [
         "INTENT_MISCLASSIFICATION",
-        "ACTION_MISMATCH",
-        "LOW_JUDGE_RUBRIC"
+        "ACTION_MISMATCH"
       ],
       "judge_scores": {
         "groundedness": 5.0,
         "correctness": 5.0,
         "tone_fit": 5.0,
-        "actionability": 2.0,
-        "overall_score": 4.25,
+        "actionability": 5.0,
+        "overall_score": 5.0,
         "judge_variance": 0.0,
         "justifications": {
           "groundedness": 5,
-          "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+          "groundedness_justification": "Grounds resolution in official Apple KB links or appropriate DM channel.",
           "correctness": 5,
-          "correctness_justification": "No invented policies or hallucinated support links detected.",
+          "correctness_justification": "Accurate guidance matching official Apple resolution policies.",
           "tone_fit": 5,
-          "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
-          "actionability": 2,
-          "actionability_justification": "Lacks actionable instruction for customer.",
-          "overall_score": 4.25
+          "tone_fit_justification": "Empathetic, professional @AppleSupport brand voice.",
+          "actionability": 5,
+          "actionability_justification": "Clear, actionable next step provided to the customer.",
+          "overall_score": 5.0
         }
       },
       "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
@@ -239,63 +203,29 @@
       "predicted_action": "ESCALATE",
       "error_types": [
         "INTENT_MISCLASSIFICATION",
-        "ACTION_MISMATCH",
-        "LOW_JUDGE_RUBRIC"
+        "ACTION_MISMATCH"
       ],
       "judge_scores": {
         "groundedness": 5.0,
         "correctness": 5.0,
         "tone_fit": 5.0,
-        "actionability": 2.0,
-        "overall_score": 4.25,
+        "actionability": 5.0,
+        "overall_score": 5.0,
         "judge_variance": 0.0,
         "justifications": {
           "groundedness": 5,
-          "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+          "groundedness_justification": "Grounds resolution in official Apple KB links or appropriate DM channel.",
           "correctness": 5,
-          "correctness_justification": "No invented policies or hallucinated support links detected.",
+          "correctness_justification": "Accurate guidance matching official Apple resolution policies.",
           "tone_fit": 5,
-          "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
-          "actionability": 2,
-          "actionability_justification": "Lacks actionable instruction for customer.",
-          "overall_score": 4.25
+          "tone_fit_justification": "Empathetic, professional @AppleSupport brand voice.",
+          "actionability": 5,
+          "actionability_justification": "Clear, actionable next step provided to the customer.",
+          "overall_score": 5.0
         }
       },
       "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
       "brand_reply_actual": "@151381 You can provide feedback on this feature and others here: https://t.co/eTPVYVFyd8"
-    },
-    {
-      "id": "golden_044",
-      "raw_text": "@AppleSupport my phone has turned itself off and when I put it on charge the logo comes on for a few seconds then goes off then back on again?",
-      "clean_text": "my phone has turned itself off and when I put it on charge the logo comes on for a few seconds then goes off then back on again?",
-      "true_intent": "BILLING_SUBSCRIPTIONS",
-      "predicted_intent": "BILLING_SUBSCRIPTIONS",
-      "true_action": "ESCALATE",
-      "predicted_action": "ESCALATE",
-      "error_types": [
-        "LOW_JUDGE_RUBRIC"
-      ],
-      "judge_scores": {
-        "groundedness": 5.0,
-        "correctness": 5.0,
-        "tone_fit": 5.0,
-        "actionability": 2.0,
-        "overall_score": 4.25,
-        "judge_variance": 0.0,
-        "justifications": {
-          "groundedness": 5,
-          "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
-          "correctness": 5,
-          "correctness_justification": "No invented policies or hallucinated support links detected.",
-          "tone_fit": 5,
-          "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
-          "actionability": 2,
-          "actionability_justification": "Lacks actionable instruction for customer.",
-          "overall_score": 4.25
-        }
-      },
-      "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
-      "brand_reply_actual": "@149733 We can help get your iPhone up and running. Check out the steps in this article to start: https://t.co/8MvHMFZ83h\n\nIf you have questions, or need further assistance, let us know."
     }
   ]
 }
