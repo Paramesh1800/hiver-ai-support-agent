@@ -1,0 +1,8 @@
+{
+  "intent": "SOFTWARE_UPDATE_BUG",
+  "confidence": 0.73,
+  "draft_reply": "Thanks for letting us know! Try checking Settings > General > Software Update, or restart your device. Tips: https://support.apple.com/HT201412.",
+  "action": "AUTO_HANDLE",
+  "reason": "Standard software troubleshooting steps and restart recommendations can be auto-handled.",
+  "retrieval_grounding": "@135058 That is expected behavior with the Control Center and the status bar. However, we can help g..."
+}

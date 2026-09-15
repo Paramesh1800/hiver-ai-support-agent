@@ -1,0 +1,8 @@
+{
+  "intent": "SOFTWARE_UPDATE_BUG",
+  "confidence": 0.73,
+  "draft_reply": "Thanks for letting us know! Try checking Settings > General > Software Update, or restart your device. Tips: https://support.apple.com/HT201412.",
+  "action": "AUTO_HANDLE",
+  "reason": "Standard software troubleshooting steps and restart recommendations can be auto-handled.",
+  "retrieval_grounding": "@129499 Thanks for reaching out to us for support. That is certainly not the experience that we want..."
+}

@@ -1,0 +1,301 @@
+{
+  "total_errors": 4,
+  "total_evaluated": 200,
+  "failure_clusters": {
+    "Failure Mode 1: Sarcastic / Exaggerated Complaining": {
+      "hypothesis": "User uses hyperbole ('paperweight', 'worst ever') rather than technical defect terms, causing keyword misclassification.",
+      "examples": []
+    },
+    "Failure Mode 2: Multi-Intent Conflict": {
+      "hypothesis": "Customer mentions battery/hardware issue AND a billing charge in one tweet; classifier picks hardware and misses mandatory billing escalation.",
+      "examples": []
+    },
+    "Failure Mode 3: Out-of-Scope Legacy Device / App Incompatibility": {
+      "hypothesis": "Legacy device queries (e.g. vintage iPod, older iOS) get routed to modern iPhone support KB links instead of vintage device policies.",
+      "examples": []
+    },
+    "Failure Mode 4: Implicit Order PII without Hashtag": {
+      "hypothesis": "Order numbers written without explicit '#' symbol or spelled in text fail numerical regex pattern matching.",
+      "examples": [
+        {
+          "id": "golden_006",
+          "raw_text": "@AppleSupport Just wanted to report poor battery life on iPhone 6S following iOS 11.1 update yesterday. Phone also running warmer.",
+          "clean_text": "Just wanted to report poor battery life on iPhone 6S following iOS 11.1 update yesterday. Phone also running warmer.",
+          "true_intent": "HARDWARE_REPAIR",
+          "predicted_intent": "SOFTWARE_UPDATE_BUG",
+          "true_action": "AUTO_HANDLE",
+          "predicted_action": "AUTO_HANDLE",
+          "error_types": [
+            "INTENT_MISCLASSIFICATION"
+          ],
+          "judge_scores": {
+            "groundedness": 5.0,
+            "correctness": 5.0,
+            "tone_fit": 5.0,
+            "actionability": 5.0,
+            "overall_score": 5.0,
+            "judge_variance": 0.0,
+            "justifications": {
+              "groundedness": 5,
+              "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+              "correctness": 5,
+              "correctness_justification": "No invented policies or hallucinated support links detected.",
+              "tone_fit": 5,
+              "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
+              "actionability": 5,
+              "actionability_justification": "Provides concrete, clear next step for customer.",
+              "overall_score": 5.0
+            }
+          },
+          "draft_reply": "Thanks for letting us know! Try checking Settings > General > Software Update, or restart your device. Tips: https://support.apple.com/HT201412.",
+          "brand_reply_actual": "@125428 We’d love to help with your battery life. To start, please send us a DM. https://t.co/GDrqU22YpT"
+        },
+        {
+          "id": "golden_026",
+          "raw_text": "@AppleSupport App store now appears to be working",
+          "clean_text": "App store now appears to be working",
+          "true_intent": "OTHER_GENERAL",
+          "predicted_intent": "BILLING_SUBSCRIPTIONS",
+          "true_action": "AUTO_HANDLE",
+          "predicted_action": "ESCALATE",
+          "error_types": [
+            "INTENT_MISCLASSIFICATION",
+            "ACTION_MISMATCH",
+            "LOW_JUDGE_RUBRIC"
+          ],
+          "judge_scores": {
+            "groundedness": 5.0,
+            "correctness": 5.0,
+            "tone_fit": 5.0,
+            "actionability": 2.0,
+            "overall_score": 4.25,
+            "judge_variance": 0.0,
+            "justifications": {
+              "groundedness": 5,
+              "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+              "correctness": 5,
+              "correctness_justification": "No invented policies or hallucinated support links detected.",
+              "tone_fit": 5,
+              "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
+              "actionability": 2,
+              "actionability_justification": "Lacks actionable instruction for customer.",
+              "overall_score": 4.25
+            }
+          },
+          "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
+          "brand_reply_actual": "@129208 We're glad to hear everything is back to normal. Please reach out to us if there is ever anything else."
+        },
+        {
+          "id": "golden_040",
+          "raw_text": ".@AppleSupport Once upon a very recent time (pre-iOS 11), one could clear the App Store cache by tapping any tab in the app 10x. That no longer works. When will @115858 be restoring this function?🤔 Thanks!😃👍\n#Apple #AppStore",
+          "clean_text": ". Once upon a very recent time (pre-iOS 11), one could clear the App Store cache by tapping any tab in the app 10x. That no longer works. When will be restoring this function?🤔 Thanks!😃👍 #Apple #AppStore",
+          "true_intent": "SOFTWARE_UPDATE_BUG",
+          "predicted_intent": "BILLING_SUBSCRIPTIONS",
+          "true_action": "AUTO_HANDLE",
+          "predicted_action": "ESCALATE",
+          "error_types": [
+            "INTENT_MISCLASSIFICATION",
+            "ACTION_MISMATCH",
+            "LOW_JUDGE_RUBRIC"
+          ],
+          "judge_scores": {
+            "groundedness": 5.0,
+            "correctness": 5.0,
+            "tone_fit": 5.0,
+            "actionability": 2.0,
+            "overall_score": 4.25,
+            "judge_variance": 0.0,
+            "justifications": {
+              "groundedness": 5,
+              "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+              "correctness": 5,
+              "correctness_justification": "No invented policies or hallucinated support links detected.",
+              "tone_fit": 5,
+              "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
+              "actionability": 2,
+              "actionability_justification": "Lacks actionable instruction for customer.",
+              "overall_score": 4.25
+            }
+          },
+          "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
+          "brand_reply_actual": "@151381 You can provide feedback on this feature and others here: https://t.co/eTPVYVFyd8"
+        },
+        {
+          "id": "golden_044",
+          "raw_text": "@AppleSupport my phone has turned itself off and when I put it on charge the logo comes on for a few seconds then goes off then back on again?",
+          "clean_text": "my phone has turned itself off and when I put it on charge the logo comes on for a few seconds then goes off then back on again?",
+          "true_intent": "BILLING_SUBSCRIPTIONS",
+          "predicted_intent": "BILLING_SUBSCRIPTIONS",
+          "true_action": "ESCALATE",
+          "predicted_action": "ESCALATE",
+          "error_types": [
+            "LOW_JUDGE_RUBRIC"
+          ],
+          "judge_scores": {
+            "groundedness": 5.0,
+            "correctness": 5.0,
+            "tone_fit": 5.0,
+            "actionability": 2.0,
+            "overall_score": 4.25,
+            "judge_variance": 0.0,
+            "justifications": {
+              "groundedness": 5,
+              "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+              "correctness": 5,
+              "correctness_justification": "No invented policies or hallucinated support links detected.",
+              "tone_fit": 5,
+              "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
+              "actionability": 2,
+              "actionability_justification": "Lacks actionable instruction for customer.",
+              "overall_score": 4.25
+            }
+          },
+          "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
+          "brand_reply_actual": "@149733 We can help get your iPhone up and running. Check out the steps in this article to start: https://t.co/8MvHMFZ83h\n\nIf you have questions, or need further assistance, let us know."
+        }
+      ]
+    },
+    "Failure Mode 5: Generic Short Tweet / Single Word Help": {
+      "hypothesis": "Ultra-short tweets ('help me', 'not working') lack semantic context, defaulting to general intent with low actionability score.",
+      "examples": []
+    }
+  },
+  "raw_errors": [
+    {
+      "id": "golden_006",
+      "raw_text": "@AppleSupport Just wanted to report poor battery life on iPhone 6S following iOS 11.1 update yesterday. Phone also running warmer.",
+      "clean_text": "Just wanted to report poor battery life on iPhone 6S following iOS 11.1 update yesterday. Phone also running warmer.",
+      "true_intent": "HARDWARE_REPAIR",
+      "predicted_intent": "SOFTWARE_UPDATE_BUG",
+      "true_action": "AUTO_HANDLE",
+      "predicted_action": "AUTO_HANDLE",
+      "error_types": [
+        "INTENT_MISCLASSIFICATION"
+      ],
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 5.0,
+        "overall_score": 5.0,
+        "judge_variance": 0.0,
+        "justifications": {
+          "groundedness": 5,
+          "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+          "correctness": 5,
+          "correctness_justification": "No invented policies or hallucinated support links detected.",
+          "tone_fit": 5,
+          "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
+          "actionability": 5,
+          "actionability_justification": "Provides concrete, clear next step for customer.",
+          "overall_score": 5.0
+        }
+      },
+      "draft_reply": "Thanks for letting us know! Try checking Settings > General > Software Update, or restart your device. Tips: https://support.apple.com/HT201412.",
+      "brand_reply_actual": "@125428 We’d love to help with your battery life. To start, please send us a DM. https://t.co/GDrqU22YpT"
+    },
+    {
+      "id": "golden_026",
+      "raw_text": "@AppleSupport App store now appears to be working",
+      "clean_text": "App store now appears to be working",
+      "true_intent": "OTHER_GENERAL",
+      "predicted_intent": "BILLING_SUBSCRIPTIONS",
+      "true_action": "AUTO_HANDLE",
+      "predicted_action": "ESCALATE",
+      "error_types": [
+        "INTENT_MISCLASSIFICATION",
+        "ACTION_MISMATCH",
+        "LOW_JUDGE_RUBRIC"
+      ],
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 2.0,
+        "overall_score": 4.25,
+        "judge_variance": 0.0,
+        "justifications": {
+          "groundedness": 5,
+          "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+          "correctness": 5,
+          "correctness_justification": "No invented policies or hallucinated support links detected.",
+          "tone_fit": 5,
+          "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
+          "actionability": 2,
+          "actionability_justification": "Lacks actionable instruction for customer.",
+          "overall_score": 4.25
+        }
+      },
+      "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
+      "brand_reply_actual": "@129208 We're glad to hear everything is back to normal. Please reach out to us if there is ever anything else."
+    },
+    {
+      "id": "golden_040",
+      "raw_text": ".@AppleSupport Once upon a very recent time (pre-iOS 11), one could clear the App Store cache by tapping any tab in the app 10x. That no longer works. When will @115858 be restoring this function?🤔 Thanks!😃👍\n#Apple #AppStore",
+      "clean_text": ". Once upon a very recent time (pre-iOS 11), one could clear the App Store cache by tapping any tab in the app 10x. That no longer works. When will be restoring this function?🤔 Thanks!😃👍 #Apple #AppStore",
+      "true_intent": "SOFTWARE_UPDATE_BUG",
+      "predicted_intent": "BILLING_SUBSCRIPTIONS",
+      "true_action": "AUTO_HANDLE",
+      "predicted_action": "ESCALATE",
+      "error_types": [
+        "INTENT_MISCLASSIFICATION",
+        "ACTION_MISMATCH",
+        "LOW_JUDGE_RUBRIC"
+      ],
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 2.0,
+        "overall_score": 4.25,
+        "judge_variance": 0.0,
+        "justifications": {
+          "groundedness": 5,
+          "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+          "correctness": 5,
+          "correctness_justification": "No invented policies or hallucinated support links detected.",
+          "tone_fit": 5,
+          "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
+          "actionability": 2,
+          "actionability_justification": "Lacks actionable instruction for customer.",
+          "overall_score": 4.25
+        }
+      },
+      "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
+      "brand_reply_actual": "@151381 You can provide feedback on this feature and others here: https://t.co/eTPVYVFyd8"
+    },
+    {
+      "id": "golden_044",
+      "raw_text": "@AppleSupport my phone has turned itself off and when I put it on charge the logo comes on for a few seconds then goes off then back on again?",
+      "clean_text": "my phone has turned itself off and when I put it on charge the logo comes on for a few seconds then goes off then back on again?",
+      "true_intent": "BILLING_SUBSCRIPTIONS",
+      "predicted_intent": "BILLING_SUBSCRIPTIONS",
+      "true_action": "ESCALATE",
+      "predicted_action": "ESCALATE",
+      "error_types": [
+        "LOW_JUDGE_RUBRIC"
+      ],
+      "judge_scores": {
+        "groundedness": 5.0,
+        "correctness": 5.0,
+        "tone_fit": 5.0,
+        "actionability": 2.0,
+        "overall_score": 4.25,
+        "judge_variance": 0.0,
+        "justifications": {
+          "groundedness": 5,
+          "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+          "correctness": 5,
+          "correctness_justification": "No invented policies or hallucinated support links detected.",
+          "tone_fit": 5,
+          "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
+          "actionability": 2,
+          "actionability_justification": "Lacks actionable instruction for customer.",
+          "overall_score": 4.25
+        }
+      },
+      "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
+      "brand_reply_actual": "@149733 We can help get your iPhone up and running. Check out the steps in this article to start: https://t.co/8MvHMFZ83h\n\nIf you have questions, or need further assistance, let us know."
+    }
+  ]
+}

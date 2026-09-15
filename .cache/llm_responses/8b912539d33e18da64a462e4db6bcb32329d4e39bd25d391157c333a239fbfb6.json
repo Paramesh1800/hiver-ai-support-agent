@@ -1,0 +1,8 @@
+{
+  "intent": "OTHER_GENERAL",
+  "confidence": 0.52,
+  "draft_reply": "Welcome to Apple Support! We're here to help. Check our step-by-step guides at https://support.apple.com.",
+  "action": "AUTO_HANDLE",
+  "reason": "Standard self-serve setup and general knowledge links.",
+  "retrieval_grounding": "@143050 We know how important it is to be able to export your projects and we'd like to help point y..."
+}

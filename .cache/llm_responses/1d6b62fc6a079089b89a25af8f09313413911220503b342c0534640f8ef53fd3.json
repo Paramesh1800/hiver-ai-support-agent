@@ -1,0 +1,8 @@
+{
+  "intent": "HARDWARE_REPAIR",
+  "confidence": 0.81,
+  "draft_reply": "We know how important your device is! Check official repair options and service pricing at https://support.apple.com/iphone/repair.",
+  "action": "AUTO_HANDLE",
+  "reason": "General repair estimates and official service program notices can be auto-handled with KB link.",
+  "retrieval_grounding": "@125613 We'd like to help. Which iOS version is installed on your iPhone currently?..."
+}

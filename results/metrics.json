@@ -1,0 +1,149 @@
+{
+  "Trivial Baseline": {
+    "overall_metrics": {
+      "intent_macro_f1": 0.1875,
+      "intent_accuracy": 0.6,
+      "action_escalate_recall": 0.0,
+      "action_escalate_precision": 0.0,
+      "action_escalate_f1": 0.0,
+      "action_accuracy": 0.95
+    },
+    "judge_rubric_scores": {
+      "groundedness": 4.0,
+      "correctness": 5.0,
+      "tone_fit": 5.0,
+      "actionability": 5.0,
+      "overall_judge_score": 4.75
+    },
+    "slice_strata_metrics": {
+      "pure_random": {
+        "intent_macro_f1": 0.1875,
+        "intent_accuracy": 0.6,
+        "action_escalate_recall": 0.0,
+        "action_escalate_precision": 0.0,
+        "action_escalate_f1": 0.0,
+        "action_accuracy": 0.95
+      }
+    },
+    "calibration_deciles": {
+      "0.5": {
+        "correct": 12,
+        "total": 20
+      },
+      "0.6": {
+        "correct": 0,
+        "total": 0
+      },
+      "0.7": {
+        "correct": 0,
+        "total": 0
+      },
+      "0.8": {
+        "correct": 0,
+        "total": 0
+      },
+      "0.9": {
+        "correct": 0,
+        "total": 0
+      }
+    }
+  },
+  "Simple Baseline (TF-IDF + Cosine)": {
+    "overall_metrics": {
+      "intent_macro_f1": 0.708,
+      "intent_accuracy": 0.9,
+      "action_escalate_recall": 1.0,
+      "action_escalate_precision": 0.3333,
+      "action_escalate_f1": 0.5,
+      "action_accuracy": 0.9
+    },
+    "judge_rubric_scores": {
+      "groundedness": 3.55,
+      "correctness": 4.5,
+      "tone_fit": 4.2,
+      "actionability": 3.8,
+      "overall_judge_score": 4.01
+    },
+    "slice_strata_metrics": {
+      "pure_random": {
+        "intent_macro_f1": 0.708,
+        "intent_accuracy": 0.9,
+        "action_escalate_recall": 1.0,
+        "action_escalate_precision": 0.3333,
+        "action_escalate_f1": 0.5,
+        "action_accuracy": 0.9
+      }
+    },
+    "calibration_deciles": {
+      "0.5": {
+        "correct": 0,
+        "total": 0
+      },
+      "0.6": {
+        "correct": 4,
+        "total": 4
+      },
+      "0.7": {
+        "correct": 4,
+        "total": 4
+      },
+      "0.8": {
+        "correct": 10,
+        "total": 10
+      },
+      "0.9": {
+        "correct": 0,
+        "total": 0
+      }
+    }
+  },
+  "Main LLM Agent (Grounded + Guardrails)": {
+    "overall_metrics": {
+      "intent_macro_f1": 0.7308,
+      "intent_accuracy": 0.95,
+      "action_escalate_recall": 1.0,
+      "action_escalate_precision": 1.0,
+      "action_escalate_f1": 1.0,
+      "action_accuracy": 1.0
+    },
+    "judge_rubric_scores": {
+      "groundedness": 5.0,
+      "correctness": 5.0,
+      "tone_fit": 5.0,
+      "actionability": 5.0,
+      "overall_judge_score": 5.0
+    },
+    "slice_strata_metrics": {
+      "pure_random": {
+        "intent_macro_f1": 0.7308,
+        "intent_accuracy": 0.95,
+        "action_escalate_recall": 1.0,
+        "action_escalate_precision": 1.0,
+        "action_escalate_f1": 1.0,
+        "action_accuracy": 1.0
+      }
+    },
+    "calibration_deciles": {
+      "0.5": {
+        "correct": 11,
+        "total": 11
+      },
+      "0.6": {
+        "correct": 0,
+        "total": 0
+      },
+      "0.7": {
+        "correct": 3,
+        "total": 3
+      },
+      "0.8": {
+        "correct": 5,
+        "total": 6
+      },
+      "0.9": {
+        "correct": 0,
+        "total": 0
+      }
+    }
+  }
+}

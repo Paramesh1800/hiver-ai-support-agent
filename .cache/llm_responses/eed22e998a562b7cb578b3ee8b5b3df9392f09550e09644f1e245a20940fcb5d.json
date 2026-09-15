@@ -1,0 +1,8 @@
+{
+  "intent": "OTHER_GENERAL",
+  "confidence": 0.52,
+  "draft_reply": "Welcome to Apple Support! We're here to help. Check our step-by-step guides at https://support.apple.com.",
+  "action": "ESCALATE",
+  "reason": "Security compromise or unauthorized transaction detected.",
+  "retrieval_grounding": "@130048  Apple Care does not cover stolen devices. Here's more information. https://t.co/Ds0oKsCgkE..."
+}

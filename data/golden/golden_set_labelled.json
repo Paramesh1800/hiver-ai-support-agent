@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "golden_001",
+    "raw_text": "This is not Canada’s flag 🇨🇺 @AppleSupport #emoji",
+    "clean_text": "This is not Canada’s flag 🇨🇺 #emoji",
+    "stratum": "pure_random",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_002",
+    "raw_text": "@AppleSupport updated to the latest iOS, now my Bluetooth is always on, I have to manually turn it off, it’s annoying! How do I change it",
+    "clean_text": "updated to the latest iOS, now my Bluetooth is always on, I have to manually turn it off, it’s annoying! How do I change it",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@149734 In iOS 11 and later, when you toggle the Wi-Fi or Bluetooth buttons in Control Center, your device will immediately disconnect from Wi-Fi and Bluetooth accessories. Both Wi-Fi and Bluetooth will continue to be available. Learn more here: https://t.co/G7BHuQnDS6",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_003",
+    "raw_text": "@AppleSupport Now if I try I cannot take a video.I would have to delete the 50secs.I have moved everything to icloud.I have tried phone off on,reset phone etc.Really annoying I do not understand it.I cannot take video via YouTube either says not available.",
+    "clean_text": "Now if I try I cannot take a video.I would have to delete the 50secs.I have moved everything to icloud.I have tried phone off on,reset phone etc.Really annoying I do not understand it.I cannot take video via YouTube either says not available.",
+    "stratum": "pure_random",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_004",
+    "raw_text": "@AppleSupport Of Course.\nUnfortunately just one bug out of about ten which appeared in periodically steps since ios11 release",
+    "clean_text": "Of Course. Unfortunately just one bug out of about ten which appeared in periodically steps since ios11 release",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@136587 Which iOS version is currently installed? Also, does this happen when changing orientation on the home screen or when you're within apps changing orientation?",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_005",
+    "raw_text": "@115858 @AppleSupport iOS 11.1.2 on iPhone7 still has touch issues and apps don’t open the first 2-3 times &amp; get frozen. Such a painful experience!!!",
+    "clean_text": "iOS 11.1.2 on iPhone7 still has touch issues and apps don’t open the first 2-3 times &amp; get frozen. Such a painful experience!!!",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@148891 We know it's important for your iPhone to work the way you expect, and we're happy to see how we can help. Send us a DM with more information about what's going on, and we'll continue from there. https://t.co/GDrqU22YpT",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_006",
+    "raw_text": "@AppleSupport Just wanted to report poor battery life on iPhone 6S following iOS 11.1 update yesterday. Phone also running warmer.",
+    "clean_text": "Just wanted to report poor battery life on iPhone 6S following iOS 11.1 update yesterday. Phone also running warmer.",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@125428 We’d love to help with your battery life. To start, please send us a DM. https://t.co/GDrqU22YpT",
+    "true_intent": "HARDWARE_REPAIR",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Hardware issue routable to official Apple repair estimator KB."
+  },
+  {
+    "id": "golden_007",
+    "raw_text": "Why is my phone storage taken up with so much ‘system’ - backed up, wiped it and set it up afresh to try and solve, but 2 hours later it’s back to taking up more than 4gb?? @AppleSupport can you help please? https://t.co/1HtsNx8PmB",
+    "clean_text": "Why is my phone storage taken up with so much ‘system’ - backed up, wiped it and set it up afresh to try and solve, but 2 hours later it’s back to taking up more than 4gb?? can you help please?",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@150980 We're here for you. DM us the iPhone you're using as well as the version of the iOS you're running using the link below and we'll go from there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_008",
+    "raw_text": "@AppleSupport No. Its not duplicated or anything. Im just wondering if the menu is not gonna stay in the center whenever I touch the assistive touch.\nIt kinda bugs me. Lol",
+    "clean_text": "No. Its not duplicated or anything. Im just wondering if the menu is not gonna stay in the center whenever I touch the assistive touch. It kinda bugs me. Lol",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@149692 The assistive touch button can be positioned wherever it's most convenient for you, while the menu will appear in the middle so all functions are accessible. When you use functions or tap outside of the menu, it will revert to the button so your view is unobstructed.",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_009",
+    "raw_text": "@AppleSupport why every time I go to update of download an app I have to turn my phone on and off for it to work!?",
+    "clean_text": "why every time I go to update of download an app I have to turn my phone on and off for it to work!?",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@141456 We want your iPhone working for you, and we'll do all we can to help. Can you describe for us what happens that requires you to restart your iPhone, for example, does the app become unresponsive after updating? Also, what iOS version is installed?",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_010",
+    "raw_text": "@118721 @AppleSupport my iPhone is not syncing and stuck on 'Copying diagnostic information'? 6s, latest version iOS and iTunes.",
+    "clean_text": "my iPhone is not syncing and stuck on 'Copying diagnostic information'? 6s, latest version iOS and iTunes.",
+    "stratum": "pure_random",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_011",
+    "raw_text": "@AppleSupport This and it’s awful. Help 😩😩 https://t.co/fDYzsmY4r3",
+    "clean_text": "This and it’s awful. Help 😩😩",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@152261 DM us which iOS device you are using and we can take a look at this. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_012",
+    "raw_text": "Spent almost two hours on a chat with you guys, got transferred and a “Senior advisor” ended the chat on me after one message lol what a joke nothing resolved @AppleSupport",
+    "clean_text": "Spent almost two hours on a chat with you guys, got transferred and a “Senior advisor” ended the chat on me after one message lol what a joke nothing resolved",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@143498 Thanks for reaching out. Have you been reconnected as of yet? Let us know in a DM and we'll continue. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_013",
+    "raw_text": "@AppleSupport Series 3 38mm non LATE latest watchos",
+    "clean_text": "Series 3 38mm non LATE latest watchos",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@140657 Thanks. Let's go ahead and update the watchOS next as outlined here: https://t.co/s6t9pl6tpv Let us know when you've completed that via DM. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_014",
+    "raw_text": "@AppleSupport  @115858 would be nice if you guys fixed your stuff so I can type I normally instead of I️ popping up every time..",
+    "clean_text": "would be nice if you guys fixed your stuff so I can type I normally instead of I️ popping up every time..",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@122930 We're here to help. Let's take this to DM so we can better assist you. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_015",
+    "raw_text": "hi my macbook air is making a loud fan noise and i have checked activity monitor for anything with a large CPU and there is nothing @AppleSupport",
+    "clean_text": "hi my macbook air is making a loud fan noise and i have checked activity monitor for anything with a large CPU and there is nothing",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@140673 Thanks for taking that step and we'll continue to assist in any way we can. What is the top item listed in Activity Monitor and what percentage of CPU is it showing? Let us know in DM: https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_016",
+    "raw_text": "@AppleSupport Thank you!  I'll get on it.",
+    "clean_text": "Thank you! I'll get on it.",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@150602 Sounds like a plan! Don't hesitate to reach back out if you have questions in the future. We're here for you.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_017",
+    "raw_text": "@AppleSupport i signed out of my apple id on my phone &amp; when i signed back in tons of my music wasnt in my library/no longer downloaded &amp; my playlists were gone. i have an apple music membership. everything on my computer stayed the same however. how do i get it back to normal??",
+    "clean_text": "i signed out of my apple id on my phone &amp; when i signed back in tons of my music wasnt in my library/no longer downloaded &amp; my playlists were gone. i have an apple music membership. everything on my computer stayed the same however. how do i get it back to normal??",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@135091 We received your DM and We'll respond there shortly. Talk to you soon!",
+    "true_intent": "ACCOUNT_SECURITY",
+    "true_action": "ESCALATE",
+    "notes": "Security lockout or credential reset requiring authentication portal."
+  },
+  {
+    "id": "golden_018",
+    "raw_text": "@AppleSupport Sent.",
+    "clean_text": "Sent.",
+    "stratum": "pure_random",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_019",
+    "raw_text": "@AppleSupport apple. ones you get when you get a new phone.",
+    "clean_text": "apple. ones you get when you get a new phone.",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@138707 Got it, thanks. So we're sure to be on the same page is there no sound at all or is there an issue with the sound quality? Also, does it happen when connected to any device?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_020",
+    "raw_text": "@152727 @AppleSupport On the 8 and having same issue. I would like to use my phone please...",
+    "clean_text": "On the 8 and having same issue. I would like to use my phone please...",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@153214 Thanks for reaching out. We've received your DM. Look for a reply there shortly.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_021",
+    "raw_text": "@AppleSupport is this you?? Or hacker?? https://t.co/L7N6CEoUr5",
+    "clean_text": "is this you?? Or hacker??",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@131274 Thanks for reaching out to us. We definitely understand your concern here. This email is not authentic. This is likely a phishing attempt to get personal information from you. You can learn more about how to identify phishing emails here: https://t.co/LNMCdqt6fD",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_022",
+    "raw_text": "Why do my earphones sound like they’re only half as loud as they would be full volume?!!! @AppleSupport",
+    "clean_text": "Why do my earphones sound like they’re only half as loud as they would be full volume?!!!",
+    "stratum": "pure_random",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_023",
+    "raw_text": "@AppleSupport I bought this phone on Friday and restored from a back up, it looks as if everything’s restored but it’s telling me it hasn’t here https://t.co/FiWBGeOtwh",
+    "clean_text": "I bought this phone on Friday and restored from a back up, it looks as if everything’s restored but it’s telling me it hasn’t here",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@121459 Thanks for the screenshot, that really helps. Let's meet in DM and we can continue there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_024",
+    "raw_text": "@AppleSupport DM'ing, now!",
+    "clean_text": "DM'ing, now!",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@129393 Hello there. We've received your DM. Please watch for our response shortly.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_025",
+    "raw_text": "Anyone know how i fix this? I took these videos on Saturday and it just doesnt let me play any videos atall in my album @AppleSupport 😤 https://t.co/Ouj3F2Qmu1",
+    "clean_text": "Anyone know how i fix this? I took these videos on Saturday and it just doesnt let me play any videos atall in my album 😤",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@124864 We want you to be able to view your special moments. Just to clarify, this message appears in the Photos app, correct?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_026",
+    "raw_text": "@AppleSupport App store now appears to be working",
+    "clean_text": "App store now appears to be working",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@129208 We're glad to hear everything is back to normal. Please reach out to us if there is ever anything else.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_027",
+    "raw_text": "@AppleSupport Can i️ trade in a perfect contrition iphone 6s at the apple store? if so how much will i️ get",
+    "clean_text": "Can i️ trade in a perfect contrition iphone 6s at the apple store? if so how much will i️ get",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@152741 Hi there. Your local Apple Store will be able to provide that information based on inspecting the iPhone. You can find estimated trade-in values here: https://t.co/1OpwRY51id",
+    "true_intent": "DEVICE_TRADEIN_SHIPPING",
+    "true_action": "ESCALATE",
+    "notes": "Contains order tracking / PII requiring private Direct Message."
+  },
+  {
+    "id": "golden_028",
+    "raw_text": "@AppleSupport 11.1.2. I haven't tried it yet with my little Bluetooth sound bar at home but will soon.",
+    "clean_text": "11.1.2. I haven't tried it yet with my little Bluetooth sound bar at home but will soon.",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@121503 Thank you. Please let us know. If the issue is only with CarPlay, your firmware may need to be updated. Please visit us here: https://t.co/tqjOBvBgl0 for more information.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_029",
+    "raw_text": "Unable to update apps when connected to WiFi. @AppleSupport",
+    "clean_text": "Unable to update apps when connected to WiFi.",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@122018 Thanks for reaching out to us about this issue. We want your device to work for you and we'll be happy to help out. To get started, can you tell us which device and OS version you're having this problem with? Also, what happens when you try to update?",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_030",
+    "raw_text": "@AppleSupport I cannot download and update apps on my iPhone 7 ☹️ and it’s not the first time.. really annoying and frustrating",
+    "clean_text": "I cannot download and update apps on my iPhone 7 ☹️ and it’s not the first time.. really annoying and frustrating",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@135599 That's not the experience we want for you, but we're glad you reached out. So that we can get you back to enjoying your apps, what specific iOS is running under Settings &gt; General &gt; About?",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_031",
+    "raw_text": "@AppleSupport If the right path is the space between the two paths of responsibility — yep that’s where I am — no data plan — no plan to resolve it.",
+    "clean_text": "If the right path is the space between the two paths of responsibility — yep that’s where I am — no data plan — no plan to resolve it.",
+    "stratum": "pure_random",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_032",
+    "raw_text": "@AppleSupport Thank you for response - have DMd you",
+    "clean_text": "Thank you for response - have DMd you",
+    "stratum": "pure_random",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_033",
+    "raw_text": "@124882 @AppleSupport Just check my usage stats at 30%screen on time. And i just got a new battery 1-2 months ago, was running fine on 10.3.3 https://t.co/pRDYoTIHNk",
+    "clean_text": "Just check my usage stats at 30%screen on time. And i just got a new battery 1-2 months ago, was running fine on 10.3.3",
+    "stratum": "pure_random",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "HARDWARE_REPAIR",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Hardware issue routable to official Apple repair estimator KB."
+  },
+  {
+    "id": "golden_034",
+    "raw_text": "@AppleSupport I app. the reply. Iphone 7+. Not finishing for an 8 or an X just fix the SW. I can’t go another week with the 7+",
+    "clean_text": "I app. the reply. Iphone 7+. Not finishing for an 8 or an X just fix the SW. I can’t go another week with the 7+",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@118362 We're asking which version you're running as we released iOS 11.1 today. It may help address the issues you've been experiencing.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_035",
+    "raw_text": "@AppleSupport Yeah and it switches back on",
+    "clean_text": "Yeah and it switches back on",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@149682 So we can take a deeper look at this, could you join us in DM? https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_036",
+    "raw_text": "@AppleSupport Only about 10 of my contacts transfer to my 2017 Acura RDX. Sometimes my screen becomes unresponsive. My voicemail box has disappeared and reappeared. This morning my time, service, and battery disappeared from my home screen https://t.co/1AEu9VYIcl",
+    "clean_text": "Only about 10 of my contacts transfer to my 2017 Acura RDX. Sometimes my screen becomes unresponsive. My voicemail box has disappeared and reappeared. This morning my time, service, and battery disappeared from my home screen",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@137189 Let's find out what's going on. Could you Direct Message us and let us know what iOS version the iPhone is on? https://t.co/GDrqU22YpT",
+    "true_intent": "HARDWARE_REPAIR",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Hardware issue routable to official Apple repair estimator KB."
+  },
+  {
+    "id": "golden_037",
+    "raw_text": "@AppleSupport @115858 new phone paid a bomb ,it hangs ,apps don’t work .please revert . @3451 not working in some message,at times it works https://t.co/iTQmbH0eQu",
+    "clean_text": "new phone paid a bomb ,it hangs ,apps don’t work .please revert . not working in some message,at times it works",
+    "stratum": "pure_random",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_038",
+    "raw_text": "Top 5 things I regret doing in MY LiFE is updating my IOS. Now my Touch ID doesn’t work! Tf @AppleSupport",
+    "clean_text": "Top 5 things I regret doing in MY LiFE is updating my IOS. Now my Touch ID doesn’t work! Tf",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@123521 We want to look into what's going on with your TouchID. To start, which device and iOS version are you using?",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_039",
+    "raw_text": "@AppleSupport why is my battery life short? I updated to 11.1, my battery is poor. Wife didn’t she likes her battery life",
+    "clean_text": "why is my battery life short? I updated to 11.1, my battery is poor. Wife didn’t she likes her battery life",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@116334 Let’s work together on this situation. To clarify, did this start after updating to iOS 11.1? Also, which device are you using?",
+    "true_intent": "HARDWARE_REPAIR",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Hardware issue routable to official Apple repair estimator KB."
+  },
+  {
+    "id": "golden_040",
+    "raw_text": ".@AppleSupport Once upon a very recent time (pre-iOS 11), one could clear the App Store cache by tapping any tab in the app 10x. That no longer works. When will @115858 be restoring this function?🤔 Thanks!😃👍\n#Apple #AppStore",
+    "clean_text": ". Once upon a very recent time (pre-iOS 11), one could clear the App Store cache by tapping any tab in the app 10x. That no longer works. When will be restoring this function?🤔 Thanks!😃👍 #Apple #AppStore",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@151381 You can provide feedback on this feature and others here: https://t.co/eTPVYVFyd8",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_041",
+    "raw_text": "@AppleSupport issue with my daughters iphone,its asking for apple id and password but shes forgotten the password,icloud has locked her out of her icloud account,when she tries to reset the password it will only send an email to icloud which cant be accessed can you help please",
+    "clean_text": "issue with my daughters iphone,its asking for apple id and password but shes forgotten the password,icloud has locked her out of her icloud account,when she tries to reset the password it will only send an email to icloud which cant be accessed can you help please",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@150205 Hi there. Check out this article for information about other ways to regain access to her account: https://t.co/fJnZYmbI9N Please DM if you have any questions. https://t.co/GDrqU22YpT",
+    "true_intent": "ACCOUNT_SECURITY",
+    "true_action": "ESCALATE",
+    "notes": "Security lockout or credential reset requiring authentication portal."
+  },
+  {
+    "id": "golden_042",
+    "raw_text": "@AppleSupport does apple care cover stolen iPhone?",
+    "clean_text": "does apple care cover stolen iPhone?",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@130048  Apple Care does not cover stolen devices. Here's more information. https://t.co/Ds0oKsCgkE",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "ESCALATE",
+    "notes": "Mandatory escalation: Security compromise or unauthorized transaction detected."
+  },
+  {
+    "id": "golden_043",
+    "raw_text": "@AppleSupport Ok",
+    "clean_text": "Ok",
+    "stratum": "pure_random",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_044",
+    "raw_text": "@AppleSupport my phone has turned itself off and when I put it on charge the logo comes on for a few seconds then goes off then back on again?",
+    "clean_text": "my phone has turned itself off and when I put it on charge the logo comes on for a few seconds then goes off then back on again?",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@149733 We can help get your iPhone up and running. Check out the steps in this article to start: https://t.co/8MvHMFZ83h\n\nIf you have questions, or need further assistance, let us know.",
+    "true_intent": "BILLING_SUBSCRIPTIONS",
+    "true_action": "ESCALATE",
+    "notes": "Billing dispute or refund request requiring reportaproblem.apple.com."
+  },
+  {
+    "id": "golden_045",
+    "raw_text": "@AppleSupport Problem is solved with some help from the Phone-Support. Nevertheless: s.o. tried to hack my ID from China. Is there a security-problem your customers should know?",
+    "clean_text": "Problem is solved with some help from the Phone-Support. Nevertheless: s.o. tried to hack my ID from China. Is there a security-problem your customers should know?",
+    "stratum": "pure_random",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_046",
+    "raw_text": "@AppleSupport Random apps, but I think I see it most frequently when I screenshot and go to share that screenshot",
+    "clean_text": "Random apps, but I think I see it most frequently when I screenshot and go to share that screenshot",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@125609 Thanks.  Which iPhone and iOS version are you using?  You can check under Settings &gt; General &gt; About.",
+    "true_intent": "HARDWARE_REPAIR",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Hardware issue routable to official Apple repair estimator KB."
+  },
+  {
+    "id": "golden_047",
+    "raw_text": "@AppleSupport any idea what this means when I restart my 2016 MacBook Pro? https://t.co/koXIkQ3Lio",
+    "clean_text": "any idea what this means when I restart my 2016 MacBook Pro?",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@136592 We'd be happy to look into this with you more in detail.  Let us know in DM what version of macOS you're using and if this issues happens each time you restart. https://t.co/GDrqU22YpT",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_048",
+    "raw_text": "@AppleSupport Latest WatchOS 4.1 and iOS 11.1.2\nWatch series 3. Non cellular.\niPhone 8plus",
+    "clean_text": "Latest WatchOS 4.1 and iOS 11.1.2 Watch series 3. Non cellular. iPhone 8plus",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@152260 Okay. Let's try unpairing the Watch from the iPhone. This is the equivalent to restoring to factory settings, and is a great step to resolve this. Follow the steps here: https://t.co/UCuy0qGg07  Once done, pair the Watch back to your phone. Let us know if this works.",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_049",
+    "raw_text": "dear @AppleSupport my phone screen stays on all the time despite my 30 sec. auto-lock settings - version 11.1.2",
+    "clean_text": "dear my phone screen stays on all the time despite my 30 sec. auto-lock settings - version 11.1.2",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@139273 You’re in the right place for help. Since noticing this, have you had a chance to restart your iPhone? This simple step can resolve some minor issues with the device.",
+    "true_intent": "HARDWARE_REPAIR",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Hardware issue routable to official Apple repair estimator KB."
+  },
+  {
+    "id": "golden_050",
+    "raw_text": "@AppleSupport @115948 hi hi maybe you know?",
+    "clean_text": "hi hi maybe you know?",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@150953 Thanks for contacting us. We're happy to help out in any way we can. We recommend checking out this link: https://t.co/Ui1yTnOCUz\n\nPlease reach out and let us know if you need further help after trying these steps.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_051",
+    "raw_text": "@AppleSupport They won’t enter recovery mode. This is really upsetting. How can you guys make products that do this?",
+    "clean_text": "They won’t enter recovery mode. This is really upsetting. How can you guys make products that do this?",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@143270 This isn’t expected behavior, but we’ll work through fixing this together. DM us and let us know what country you live in next. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_052",
+    "raw_text": "@AppleSupport Latest",
+    "clean_text": "Latest",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@121463 Let's take a closer look into this issue within a DM. Select the following link to join us there to continue. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_053",
+    "raw_text": "Ayo @AppleSupport - since updating to iOS11 my 7+ almost always dies around the 17/18% battery mark. Any solutions?",
+    "clean_text": "Ayo - since updating to iOS11 my 7+ almost always dies around the 17/18% battery mark. Any solutions?",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@127933 We'd like to take a closer look at your battery issues. DM us and we'll get started. https://t.co/GDrqU22YpT",
+    "true_intent": "HARDWARE_REPAIR",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Hardware issue routable to official Apple repair estimator KB."
+  },
+  {
+    "id": "golden_054",
+    "raw_text": "@AppleSupport @UPSHelp Calls to each readily available support numbers are met with the most passive, generic statements which offer absolutely zero insight as to what is happening.\n\nAlso: why would I lie to you? One @AppleSupport tech became condescending while I explained the timeline of events...",
+    "clean_text": "Calls to each readily available support numbers are met with the most passive, generic statements which offer absolutely zero insight as to what is happening. Also: why would I lie to you? One tech became condescending while I explained the timeline of events...",
+    "stratum": "pure_random",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_055",
+    "raw_text": "@AppleSupport This is what it looks like https://t.co/XCQU2l4xUB",
+    "clean_text": "This is what it looks like",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@115855 Any steps tried since it started last night?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_056",
+    "raw_text": "@AppleSupport  https://t.co/yvu10fymce",
+    "clean_text": "",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@123687 Thank you. Please check to see if you have an update available under Settings &gt; General &gt; Software Update.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_057",
+    "raw_text": "My iPhone 8plus is showing issues(hanging and slowdown) while multitasking,from the past two hours, restarted 2 times. \nIOS11 is the worst ever! @116333 @115858 @AppleSupport",
+    "clean_text": "My iPhone 8plus is showing issues(hanging and slowdown) while multitasking,from the past two hours, restarted 2 times. IOS11 is the worst ever!",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@141449 We’d like to understand more about this. DM us some details of how you restarted, which exact version of iOS you're using, and which country you're in, and we'll get going. https://t.co/GDrqU22YpT",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_058",
+    "raw_text": "@AppleSupport Help @AppleSupport ...just updated to iOS 11.2 and STILL this scam e-mail will not move to junk or delete or go away! It’s driving me crazy! HELP!",
+    "clean_text": "Help ...just updated to iOS 11.2 and STILL this scam e-mail will not move to junk or delete or go away! It’s driving me crazy! HELP!",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@135596 We're happy to look into this with you. What kind of email account are you having this issue with?",
+    "true_intent": "SOFTWARE_UPDATE_BUG",
+    "true_action": "AUTO_HANDLE",
+    "notes": "Software glitch routable to troubleshooting and restart guidance."
+  },
+  {
+    "id": "golden_059",
+    "raw_text": "My iPhone has erased and re-added emails dating back from 2013 til now twice in the past 24 hours. Wth??? @AppleSupport",
+    "clean_text": "My iPhone has erased and re-added emails dating back from 2013 til now twice in the past 24 hours. Wth???",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@116345 We'll be happy to look into this with you. To clarify, which iPhone model do you have and what's the exact iOS version?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_060",
+    "raw_text": "コレは本当に困る、ゲームも出来なくなったしアップデートしなきゃ良かった´д` ;\n@AppleSupport @115858 → 「バッテリーの減りが激しい」という問題に関しても同様）。 https://t.co/bGQly6cE2O",
+    "clean_text": "コレは本当に困る、ゲームも出来なくなったしアップデートしなきゃ良かった´д` ; → 「バッテリーの減りが激しい」という問題に関しても同様）。",
+    "stratum": "pure_random",
+    "brand_reply_actual": "@116862 We offer support via Twitter in English. Contact us for help in your preferred language here: https://t.co/IBIY3vMgPj.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_061",
+    "raw_text": "@AppleSupport no sound in the right earphone and yes.",
+    "clean_text": "no sound in the right earphone and yes.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@138707 Alright, we'd like to take a look at your options. Let us know when and where this set was purchased in a DM and we'll continue. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_062",
+    "raw_text": ".@AppleSupport .56 + 1.1 + 2 = 3.66 got no achievement https://t.co/4gQAJOOrlm",
+    "clean_text": ". .56 + 1.1 + 2 = 3.66 got no achievement",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@144553  We're excited to learn you're part of this achievement. It can take up to 9 days of completing the Activity Challenge to receive the actual award. For more information, click here: https://t.co/Tvl37DsUM1.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_063",
+    "raw_text": "@AppleSupport see last tweey https://t.co/hlKWMe5wAh",
+    "clean_text": "see last tweey",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@144223 Hello. Follow these tips to use Siri on your Apple Watch: https://t.co/L0xH9gXYAj Feel free to reach out if you have additional questions. Enjoy!",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_064",
+    "raw_text": "My computer has been looking like this for the past 3 hours... not good... #help @AppleSupport #lost https://t.co/P1HtKEsMEn",
+    "clean_text": "My computer has been looking like this for the past 3 hours... not good... #help #lost",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@149291 We're happy to help with your MacBook. How was your device being used with this occurred? Were you installing an update or simply starting up?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_065",
+    "raw_text": "@AppleSupport need you to check your DM’s. 😩😩😩",
+    "clean_text": "need you to check your DM’s. 😩😩😩",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@130486 We're happy to help. We've received your DM, and will continue there. Look for a reply shortly.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_066",
+    "raw_text": "@AppleSupport This is an example of Siri being slightly weird https://t.co/gdXIwVLfzq",
+    "clean_text": "This is an example of Siri being slightly weird",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_067",
+    "raw_text": "@AppleSupport ok cool",
+    "clean_text": "ok cool",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@117098 Does this issue happen with all applications or only some?  Let us know in DM. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_068",
+    "raw_text": "All of my pictures magically got deleted somehow. @AppleSupport??? What the shit? I go from 3K to 600 fuck is up?",
+    "clean_text": "All of my pictures magically got deleted somehow. ??? What the shit? I go from 3K to 600 fuck is up?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@127607 What happened before they were deleted?  Are you able to see those photos at https://t.co/tmRhWEkIq4 if you log in there?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_069",
+    "raw_text": "@AppleSupport This happens when i put my calls on loudspeaker or play music. The phon volume is kept at maximum. And this does not happen while listening to music from headphones. The OS is 11.1.2",
+    "clean_text": "This happens when i put my calls on loudspeaker or play music. The phon volume is kept at maximum. And this does not happen while listening to music from headphones. The OS is 11.1.2",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@136853 We've got your DM and will continue with you there. Be on the lookout for our reply. Thank you!",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_070",
+    "raw_text": "@AppleSupport ? hello",
+    "clean_text": "? hello",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@115867 We'd like to get you speaking to our experts here: https://t.co/IBIY3vMgPj",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_071",
+    "raw_text": "@AppleSupport Latest version at this point, it’s about two weeks ago. After using app switcher to quit apps it appeared. Not noticed in apps",
+    "clean_text": "Latest version at this point, it’s about two weeks ago. After using app switcher to quit apps it appeared. Not noticed in apps",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@136587 Thanks for this information. Have you had a chance to power down and restart your device? DM us and we'll continue from there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_072",
+    "raw_text": "@AppleSupport Still not working.",
+    "clean_text": "Still not working.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@151825 Okay. DM us and tell us which model device you have and we'll go from there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_073",
+    "raw_text": "@AppleSupport it has been one hour and didn’t start? What’s the problem https://t.co/rwvwfsSH7m",
+    "clean_text": "it has been one hour and didn’t start? What’s the problem",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@128908 We're here to help. Let's take this to DM so we can better assist you. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_074",
+    "raw_text": "@AppleSupport Thanks done &amp; done ✅",
+    "clean_text": "Thanks done &amp; done ✅",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_075",
+    "raw_text": "@AppleSupport About a week and it’s only with a Bluetooth headset or car Bluetooth",
+    "clean_text": "About a week and it’s only with a Bluetooth headset or car Bluetooth",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@134154 To prevent from repeating any previous troubleshooting, can you tell us what steps you've already taken so far? Click here to let us know in DM: https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_076",
+    "raw_text": "@AppleSupport Alright thanks bro. Send an X my way and ill give you shoutout.",
+    "clean_text": "Alright thanks bro. Send an X my way and ill give you shoutout.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_077",
+    "raw_text": "@124176 @AppleSupport Following this too bc it’s been happening to me!!",
+    "clean_text": "Following this too bc it’s been happening to me!!",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@125157 We're here for you! Let's work together. Send us a DM and let us know when this started happening. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_078",
+    "raw_text": "@AppleSupport @123366 Mee too",
+    "clean_text": "Mee too",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_079",
+    "raw_text": "@AppleSupport I’m complaining on Twitter because phone support was not useful and disrespectful with me, 1st time after 15 years, times’re changing @115858",
+    "clean_text": "I’m complaining on Twitter because phone support was not useful and disrespectful with me, 1st time after 15 years, times’re changing",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@124301 That's not the experience we want you to have. Can you please provide more details about what happened in a DM? https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_080",
+    "raw_text": "@AppleSupport why does my iphone 6 is redémarrer alone !!!!!",
+    "clean_text": "why does my iphone 6 is redémarrer alone !!!!!",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@117104 Thanks for getting back to us. We apologize but aren't understanding the issue at hand. Please DM us. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_081",
+    "raw_text": "@AppleSupport No, it stays off for a short period of time. If I connect to a WiFi network in another time zone or travel to another time zone, it turns itself back on.",
+    "clean_text": "No, it stays off for a short period of time. If I connect to a WiFi network in another time zone or travel to another time zone, it turns itself back on.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@119652 Got it, thanks. So that we can look into this further, DM the iOS version your iPhone is currently running. This info can be found under Settings &gt; General &gt; About. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_082",
+    "raw_text": "@AppleSupport iPhone 6splus",
+    "clean_text": "iPhone 6splus",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@149323 Has the device been restarted since it happened? If not, let's do that using these steps: https://t.co/OWRDHWSt4h \n\nDo you know what version of the iOS is on the device? You can check under Settings &gt; General &gt; About &gt; Version.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_083",
+    "raw_text": "@AppleSupport Hi there, yes I have tried but still does this loading sign",
+    "clean_text": "Hi there, yes I have tried but still does this loading sign",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@128689 Do you also have this app running on your iPhone? If yes, try quitting it and reinstalling it there as well.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_084",
+    "raw_text": "@AppleSupport Not working on 4g and not working with another wifi",
+    "clean_text": "Not working on 4g and not working with another wifi",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@135581 Thanks for checking that. Let's continue in a DM. Please tap here: https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_085",
+    "raw_text": "@AppleSupport And when is the summer free is going to be released?",
+    "clean_text": "And when is the summer free is going to be released?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@124299 We’re also excited for the iPhone X! You can find out more information about available models here: https://t.co/yl9mQrnFWP",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_086",
+    "raw_text": "@AppleSupport I just followed some steps on the apple forum, and it worked. So I guess it’s solved, thank you.",
+    "clean_text": "I just followed some steps on the apple forum, and it worked. So I guess it’s solved, thank you.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@125146 Glad to hear you were able to update. Let us know if we can be of any other assistance.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_087",
+    "raw_text": "@AppleSupport Thanks for the reply. I’ve done all that but once in a while Live Photo’s still turns back on by itself, it seems.",
+    "clean_text": "Thanks for the reply. I’ve done all that but once in a while Live Photo’s still turns back on by itself, it seems.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@137635 Thanks for letting us know. Has this always happening with your device or just start? Which iOS version is your device running?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_088",
+    "raw_text": "@AppleSupport Will you please put the texting from the photo app option back? It is super annoying having to get out of photos to txt a pic.",
+    "clean_text": "Will you please put the texting from the photo app option back? It is super annoying having to get out of photos to txt a pic.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@128697 We'd be happy to look into this with you.  Please reach out to us via DM and we'll get started. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_089",
+    "raw_text": "@150615 @134114 @150616 @AppleSupport This is just so disappointing. I really love my 6s plus, and it's barely over a year old. Paid what for me is a lot of money for it. I've been using apple for years but, as much as I don't want to, this really forces me to consider other brands for my next phone.",
+    "clean_text": "This is just so disappointing. I really love my 6s plus, and it's barely over a year old. Paid what for me is a lot of money for it. I've been using apple for years but, as much as I don't want to, this really forces me to consider other brands for my next phone.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@150614 We'd love to assist you with any issues that you're having with your phone. Please click here to join us in DM and we'll continue there: https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_090",
+    "raw_text": "@AppleSupport No I just can't figure it out 😥",
+    "clean_text": "No I just can't figure it out 😥",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@151810 No problem! Let's get you over to our Photos experts, who'll be able to walk through this with you. You can reach out to them here: https://t.co/IBIY3vMgPj",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_091",
+    "raw_text": "@AppleSupport this is really starting to wind me up 😂🙃 this iphone 8+ is not a few months old and has been doing this since i got it https://t.co/pMi6G8VVaY",
+    "clean_text": "this is really starting to wind me up 😂🙃 this iphone 8+ is not a few months old and has been doing this since i got it",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@135579 An unresponsive iPhone is never fun. Let us know which version of iOS you’re currently running in DM. We’ll continue working on this issue with you there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_092",
+    "raw_text": "So apparently blue tooth doesn’t work on the iPhone X @AppleSupport. Maybe I should’ve stuck with Samsung.",
+    "clean_text": "So apparently blue tooth doesn’t work on the iPhone X . Maybe I should’ve stuck with Samsung.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@150208 Try out the steps in the following article for your Bluetooth: https://t.co/JMbUWh4fsj\n\nIf you're still having issues, let us know via DM. We're here to help and make sure your able to connect your device when needed. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_093",
+    "raw_text": "@AppleSupport ever since I downloaded Animal Crossing I keep getting these notifications even though it’s fully downloaded and I’ve been playing it :( please help https://t.co/wthMnb9nou",
+    "clean_text": "ever since I downloaded Animal Crossing I keep getting these notifications even though it’s fully downloaded and I’ve been playing it :( please help",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@121459 We can see how that would get in your way. Have you restarted your iPhone as a troubleshooting step? If you already have done so, let's delete Animal Crossing and see if this still occurs. If the error message ceases, we'll reinstall and go from there.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_094",
+    "raw_text": "Hey @AppleSupport is the iPhone 8 actually waterproof ? \n\nSo I can go under water with it in a swimming pool ?",
+    "clean_text": "Hey is the iPhone 8 actually waterproof ? So I can go under water with it in a swimming pool ?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@125425 The iPhone 8 is water resistant. You can find more details here: https://t.co/U12xqgJWbP",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_095",
+    "raw_text": "QUÉ HAGO PARA RECUPERAR ESTA NOTA DE VOZ??? @AppleSupport @115858 https://t.co/raF7lwp4IE",
+    "clean_text": "QUÉ HAGO PARA RECUPERAR ESTA NOTA DE VOZ???",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@142831 We offer support via Twitter in English. Get help in Spanish here: https://t.co/IBIY3vMgPj or join https://t.co/OczyRx7IOs",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_096",
+    "raw_text": "@AppleSupport Sure, thanks!",
+    "clean_text": "Sure, thanks!",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_097",
+    "raw_text": "@AppleSupport I’m on the newest version",
+    "clean_text": "I’m on the newest version",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_098",
+    "raw_text": "@AppleSupport imma need y’all to fix this “I.T” thing . cause i’m about tired . keyboard shortcut trick doesn’t work 🤷🏽‍♀️",
+    "clean_text": "imma need y’all to fix this “I.T” thing . cause i’m about tired . keyboard shortcut trick doesn’t work 🤷🏽‍♀️",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@134149 That is certainly not the experience we want you to have. Which iOS version is your device running? https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_099",
+    "raw_text": "When/why did apple silently get rid of the area in settings that allowed you to edit the settings of downloaded Apps? @AppleSupport",
+    "clean_text": "When/why did apple silently get rid of the area in settings that allowed you to edit the settings of downloaded Apps?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@150206 Hi there. We're here to help you. Could you tell us which settings specifically that you're trying to edit? We'll do our best to get you pointed in the right direction.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_100",
+    "raw_text": "@AppleSupport @116333 @123857  Should I be concerned yet? My iPhone X left China and went to Hong Kong and hasn’t left yet I live in LA",
+    "clean_text": "Should I be concerned yet? My iPhone X left China and went to Hong Kong and hasn’t left yet I live in LA",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@123856  Our Online Store team is best suited to help with your question. You can reach them here: https://t.co/8yjRd1Xo0i",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_101",
+    "raw_text": "@AppleSupport Apple logo. Won’t know it’s turned off till I check, then have to turn back on",
+    "clean_text": "Apple logo. Won’t know it’s turned off till I check, then have to turn back on",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@126090 Thanks. Please send us a DM and we'll continue this there. https://t.co/GDrqU2kzhr",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_102",
+    "raw_text": "For those that have been wondering. @AppleSupport why are y’all punishing us for using pronouns!? https://t.co/rwpj6LqUce",
+    "clean_text": "For those that have been wondering. why are y’all punishing us for using pronouns!?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@123676 Thanks for reaching out. DM which iPhone and specific iOS version you are using to get started. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_103",
+    "raw_text": "@AppleSupport If you don’t follow me we cannot DM. I’ve said this preciously, but you wont follow. So this is just talk.",
+    "clean_text": "If you don’t follow me we cannot DM. I’ve said this preciously, but you wont follow. So this is just talk.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_104",
+    "raw_text": "@AppleSupport Hi! What is going on? Has Youtube lost it? What can be done about it? Thanks for the support! https://t.co/T8ZZp4IH6t",
+    "clean_text": "Hi! What is going on? Has Youtube lost it? What can be done about it? Thanks for the support!",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@115866 We want to help! DM us and let us know more about the issues you are having. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_105",
+    "raw_text": "Thanks @AppleSupport, for following up on the camera issue. It is highly appreciated. Hope you will continue to support in the same way.",
+    "clean_text": "Thanks , for following up on the camera issue. It is highly appreciated. Hope you will continue to support in the same way.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@123516 Our pleasure! Let us know if you have further questions &amp; we'll be glad to help.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_106",
+    "raw_text": "@AppleSupport Thank you! My friend spotted this. I didn't realise it wouldn't automatically do the latest one. Thanks for replying-will do when get wifi😀",
+    "clean_text": "Thank you! My friend spotted this. I didn't realise it wouldn't automatically do the latest one. Thanks for replying-will do when get wifi😀",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@125148 Awesome! Let us know how it goes.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_107",
+    "raw_text": "@AppleSupport my shit not updating",
+    "clean_text": "my shit not updating",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@130034 We want to help. What device is having issues updating? What is the currently installed operating system?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_108",
+    "raw_text": "@AppleSupport 1+2+3=23 https://t.co/cSgahr4x35",
+    "clean_text": "1+2+3=23",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@119049 Lets look into this for you. Send us a DM with your exact iOS version to get started. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_109",
+    "raw_text": "@AppleSupport Correct. I went to take a photo just now, and Live was set to on and flash to Auto even though they had both previously been turned off.",
+    "clean_text": "Correct. I went to take a photo just now, and Live was set to on and flash to Auto even though they had both previously been turned off.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@141452 Please DM us to continue. Thank you. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_110",
+    "raw_text": "@AppleSupport completed a run today and my Thanksgiving badge hasn’t shown up :( Any advice? https://t.co/m7pNq5OtOO",
+    "clean_text": "completed a run today and my Thanksgiving badge hasn’t shown up :( Any advice?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@142182 Let's have a closer look. Please DM us. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_111",
+    "raw_text": "@AppleSupport My alarm keeps switching its self off at night, air plane mode, blue tooth are all turned on. Videos are playing, photos being taken and Snapchat messages being sent all while I’m asleep. What is going on?",
+    "clean_text": "My alarm keeps switching its self off at night, air plane mode, blue tooth are all turned on. Videos are playing, photos being taken and Snapchat messages being sent all while I’m asleep. What is going on?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@135088 That certainly isn't expected behavior, and we'll want to figure out what's going on. Send us a DM with the exact iOS version currently installed on your device and we'll go from there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_112",
+    "raw_text": "Hello, internet. Can someone explain why this symbol keeps appearing on my phone and when I️ try to type the letter I️? Also @AppleSupport https://t.co/QKwvTLtiN7",
+    "clean_text": "Hello, internet. Can someone explain why this symbol keeps appearing on my phone and when I️ try to type the letter I️? Also",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@115861 You're in the right place; we'll do all we can to help. To start, let us know what iOS version is installed via DM: https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_113",
+    "raw_text": "@AppleSupport Hi replying to your tweet. Thank you",
+    "clean_text": "Hi replying to your tweet. Thank you",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@116962 You're welcome. Can you tell us which software version is currently running on your phone? Click here to connect with us in DM and we'll pick up there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_114",
+    "raw_text": "What is this I️ shit? @AppleSupport @115858 it’s keeps switching to A ?",
+    "clean_text": "What is this I️ shit? it’s keeps switching to A ?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@128504 We'd like to look into this with you. Please DM us your current country and iOS version. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_115",
+    "raw_text": "@AppleSupport So I sent you a DM and didn’t get a response. Are you actually willing to help or just trying to take it offline? Software upgrade was done",
+    "clean_text": "So I sent you a DM and didn’t get a response. Are you actually willing to help or just trying to take it offline? Software upgrade was done",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_116",
+    "raw_text": "@AppleSupport my storage has ran out and nothing I download isn't storing on my iCloud which still has 2GB left,help?🙄🙄",
+    "clean_text": "my storage has ran out and nothing I download isn't storing on my iCloud which still has 2GB left,help?🙄🙄",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@138974 We want to help you with managing your storage on your iPhone. Your iPhone is able to show you information on the storage being used and make recommendations to optimize your storage usage. Please check out more on how to clear that space here: https://t.co/0yFHFRYSnX",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_117",
+    "raw_text": "@AppleSupport Thanks, I did! You rock!!!",
+    "clean_text": "Thanks, I did! You rock!!!",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@150578 Happy to help. We wish you a great holiday season. Take care!",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_118",
+    "raw_text": "@AppleSupport No tried that a few times... it’s an audiobook but it’s just frozen in the title page",
+    "clean_text": "No tried that a few times... it’s an audiobook but it’s just frozen in the title page",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@149735 OK thanks for trying that. What version of the iOS software do you currently have installed on your device? You can find this in Settings &gt; General &gt; About. \n\nPlease meet us in DM with this information and we will continue to work together. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_119",
+    "raw_text": "@AppleSupport Jk its still not working I turned my auto correct off now.",
+    "clean_text": "Jk its still not working I turned my auto correct off now.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@122932 If you'd like us to help further with this issue, just send us a DM, and we'll work on it with you. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_120",
+    "raw_text": "@AppleSupport Thanks! Reported!",
+    "clean_text": "Thanks! Reported!",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_121",
+    "raw_text": "@115858 @115858 @AppleSupport If your reps are going to be calling from international numbers you better be ready tonpay those international tolls",
+    "clean_text": "If your reps are going to be calling from international numbers you better be ready tonpay those international tolls",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@128497 We'd like to see how we can help with this. Please connect with us in DM and we'll get started: https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_122",
+    "raw_text": "@AppleSupport Any idea why I didn’t get my October badge? Normally it’s right away. https://t.co/JbExZejOS0",
+    "clean_text": "Any idea why I didn’t get my October badge? Normally it’s right away.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@129593 Thanks for reaching out.  Awards can take up to 9 days to show up.  Here is more information:  https://t.co/xwf6lrIgzJ",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_123",
+    "raw_text": "@AppleSupport @118721 @115948 why am I having trouble downloading #FridayOnElmStreet",
+    "clean_text": "why am I having trouble downloading #FridayOnElmStreet",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@151805 Hey there. We'd love to help. First off, what do you see when you try to download that album? What type of device are you using? Let us know. We'll figure it out.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_124",
+    "raw_text": "@AppleSupport version - 11.1.1(15B150)",
+    "clean_text": "version - 11.1.1(15B150)",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@132417 Since you're running an older version of iOS, we recommend updating to iOS 11.1.2 and seeing if the behavior persists. Prior to doing so, we encourage you to create a data backup. Here's an article to help you create one: https://t.co/4f8hwT5to6",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_125",
+    "raw_text": "ok @115858 I love that app too… cc. @AppleSupport https://t.co/DPDvkwctMZ",
+    "clean_text": "ok I love that app too… cc.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@127414 Thanks for reaching out. We're here to help. DM us so we can look into this further with you. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_126",
+    "raw_text": "@AppleSupport I can not find an option to get it there. It was just always there when playing.",
+    "clean_text": "I can not find an option to get it there. It was just always there when playing.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@115870 DM us the specific iOS version you are running currently and we'll continue there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_127",
+    "raw_text": "@AppleSupport I’ve checked and it’s available in my region ... still not working!",
+    "clean_text": "I’ve checked and it’s available in my region ... still not working!",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@149687 We'd be happy to look into this with you more in detail. Please reach out to us via DM and we'll get started. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_128",
+    "raw_text": "@AppleSupport Once I removed two step authentication it all went back to normal - thanks for responding",
+    "clean_text": "Once I removed two step authentication it all went back to normal - thanks for responding",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@125180 We're here to assist if you need assistance in the future.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_129",
+    "raw_text": "😒Yo @AppleSupport my iPhone 7 has been acting up ever since yesterday, it’s actually stuck on “searching”. I’ve tried almost everything, rebooting + airplane mode but there’s no change. What’s even worse is that it can’t even connect to WiFi now😭. PLEASE HELP!💔",
+    "clean_text": "😒Yo my iPhone 7 has been acting up ever since yesterday, it’s actually stuck on “searching”. I’ve tried almost everything, rebooting + airplane mode but there’s no change. What’s even worse is that it can’t even connect to WiFi now😭. PLEASE HELP!💔",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@149736 Hi. We are here to help. Have their been any recent changes to your device? What is your iOS version?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_130",
+    "raw_text": "@118363 @AppleSupport @118361 @907 Girl wtf?!?! Dis tew much 😰",
+    "clean_text": "Girl wtf?!?! Dis tew much 😰",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_131",
+    "raw_text": "@AppleSupport Yes and yes",
+    "clean_text": "Yes and yes",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@153209 We'd like to investigate further with you. Send us a DM and we can troubleshoot more from there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_132",
+    "raw_text": "My worst fear came true... my iPhone alarm isn’t working and never went off this morning  @AppleSupport",
+    "clean_text": "My worst fear came true... my iPhone alarm isn’t working and never went off this morning",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@121044 Hello. We are here to help. Has this happened previously. Also, what is your iOS version?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_133",
+    "raw_text": "I’m trying to type it not fuckin I.T, your product is absolute garbage. Figure it out. @115858 @AppleSupport",
+    "clean_text": "I’m trying to type it not fuckin I.T, your product is absolute garbage. Figure it out.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@134527 Let's take a closer look at this to get your device working right. Which model do you have and what's the exact OS version number installed?\n\nHave you tried any steps so far and when did this start happening?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_134",
+    "raw_text": "@AppleSupport This started a few months ago. I tried safe mode and had no success",
+    "clean_text": "This started a few months ago. I tried safe mode and had no success",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@121005 Let's dig further in via DM to see what we can figure out. Are you able to access iTunes and the iTunes store fully? https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_135",
+    "raw_text": "@AppleSupport Seems to be ok now. Thanks",
+    "clean_text": "Seems to be ok now. Thanks",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@121933 That is great news! Please reach out if you need further assistance.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_136",
+    "raw_text": "@AppleSupport Working fine after that day.\nthank you",
+    "clean_text": "Working fine after that day. thank you",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@151390 Excellent! We're glad to hear it's all been sorted out.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_137",
+    "raw_text": "@AppleSupport Thanks. I’ve done those steps and still not responded the problem",
+    "clean_text": "Thanks. I’ve done those steps and still not responded the problem",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@142507 Are you able to try on a different Wi-Fi network? Let us know in DM. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_138",
+    "raw_text": "Great! My Ipad has died, it won't turn on @AppleSupport",
+    "clean_text": "Great! My Ipad has died, it won't turn on",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@121933 We'd like to help! Try the steps in this article: https://t.co/8MvHMFZ83h Let us know what happens.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_139",
+    "raw_text": "@AppleSupport \n\nMy iphone just randomly shut off &amp; when I turned it back on it deleted all of my photos...",
+    "clean_text": "My iphone just randomly shut off &amp; when I turned it back on it deleted all of my photos...",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@132699 We'd love to help look into this and get you back in action. Can you send us a DM with some additional details? https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_140",
+    "raw_text": "So at midnight my phone just went blank, spun the wheel,and asked me to enter my passcode ...wtf @AppleSupport since os 11 this randomly :(",
+    "clean_text": "So at midnight my phone just went blank, spun the wheel,and asked me to enter my passcode ...wtf since os 11 this randomly :(",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@123061 Let's take a look at this further for you. Reach out to us in DM with more information. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_141",
+    "raw_text": "@AppleSupport i dm-ed you like a few hours ago...?",
+    "clean_text": "i dm-ed you like a few hours ago...?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_142",
+    "raw_text": "@AppleSupport Thank you!  Will DM",
+    "clean_text": "Thank you! Will DM",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_143",
+    "raw_text": "@AppleSupport heb half jaar nieuwe #MacBook en dan dit probleem met #toetsenbord. Contact gehad met jullie supportchat. Zij kunnen niets doen, advies: MacBook opsturen, 4-6 weken kwijt, onduidelijk of t in garantie is. Ik kan MacBook niet zo lang kwijt. Weten jullie meer?",
+    "clean_text": "heb half jaar nieuwe #MacBook en dan dit probleem met #toetsenbord. Contact gehad met jullie supportchat. Zij kunnen niets doen, advies: MacBook opsturen, 4-6 weken kwijt, onduidelijk of t in garantie is. Ik kan MacBook niet zo lang kwijt. Weten jullie meer?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@135070  We offer support via Twitter in English. Contact us for help in your preferred language here: https://t.co/IBIY3vMgPj",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_144",
+    "raw_text": "@AppleSupport pls help",
+    "clean_text": "pls help",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@122944 We'll do all we can to help out. Please DM us more about what's going on. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_145",
+    "raw_text": "@AppleSupport suspect fraud for you to look into #fraud #crime #dontfallforit https://t.co/hbQ7PGl3bV",
+    "clean_text": "suspect fraud for you to look into #fraud #crime #dontfallforit",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@123699 We can help. This looks like a phishing attempt. See how to handle and report these here: https://t.co/6Ye6EtSytB",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_146",
+    "raw_text": "@AppleSupport Yes ofcourse, iphone 6s version 11.1.2 (15B202)",
+    "clean_text": "Yes ofcourse, iphone 6s version 11.1.2 (15B202)",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@138153 Go ahead and DM us your country, and we'll continue working there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_147",
+    "raw_text": "@AppleSupport Yes, and I️t happens in iMessage as well.",
+    "clean_text": "Yes, and I️t happens in iMessage as well.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_148",
+    "raw_text": "@AppleSupport When I call the 1-800 My iPhone, the recording states “Due to the holiday, we’re offering limited product support. You will need an extended hours agreement.”",
+    "clean_text": "When I call the 1-800 My iPhone, the recording states “Due to the holiday, we’re offering limited product support. You will need an extended hours agreement.”",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@141089 We can definitely understand the confusion. We at this channel can help resolve your issue. Due to the holiday our phone support is closed for the day. If you would like to work with us, hit the DM link and we'll get started. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_149",
+    "raw_text": "@AppleSupport False alarm in Apple Watch , without using Apple Watch send elevated heart rate notification. How come ? Is it known issue in Apple Watch . I m using series one Watch .",
+    "clean_text": "False alarm in Apple Watch , without using Apple Watch send elevated heart rate notification. How come ? Is it known issue in Apple Watch . I m using series one Watch .",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@137159 Let's take a look at this for you. Are you getting the heart rate notification when you are wearing your Apple Watch? What do you have chosen for the BPM for Elevated Heart Rate? Take a look at this article on how to locate that: https://t.co/s7Dmxg9F3H",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_150",
+    "raw_text": "@AppleSupport I already solved the issue but unfortunately my number was out of service around 3 hours",
+    "clean_text": "I already solved the issue but unfortunately my number was out of service around 3 hours",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@150604 We're glad to hear it's now been sorted. We're live on Twitter between 5 AM and 8 PM Pacific time. Reach out if we can be of further service.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_151",
+    "raw_text": "@AppleSupport mate, I lost a song that I buy, I don't know how it happen, can I get it back?",
+    "clean_text": "mate, I lost a song that I buy, I don't know how it happen, can I get it back?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@144017 We'd love to help get your purchased song back with these steps: https://t.co/I39AyMJNgb",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_152",
+    "raw_text": "@AppleSupport Click app - blank page",
+    "clean_text": "Click app - blank page",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_153",
+    "raw_text": "@AppleSupport So how many attempts do I get and what happens if i Enter the wrong code???",
+    "clean_text": "So how many attempts do I get and what happens if i Enter the wrong code???",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@121036 After attempting so many tries to enter the Restrictions passcode, your device will prompt you to wait an extended time before letting you try again.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_154",
+    "raw_text": "@115858 @AppleSupport @1542 So one has to go back to call log. Click that message icon again and then a chat for that particular number opens up.",
+    "clean_text": "So one has to go back to call log. Click that message icon again and then a chat for that particular number opens up.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@123491 Thanks for bringing this to our attention. Can you tell us which iOS version this is occurring on please?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_155",
+    "raw_text": "@AppleSupport Almost the entire time. Obviously not when I'm out from the house. I have fast internet (100mbs). Has been restoring for more than 2 weeks. I think I had used 150gb on the phone.",
+    "clean_text": "Almost the entire time. Obviously not when I'm out from the house. I have fast internet (100mbs). Has been restoring for more than 2 weeks. I think I had used 150gb on the phone.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@141457 We want your device to work for you and we'll be happy to help out. Let's start by reviewing this great article: https://t.co/Lr8zUtw9ls\nLet us know if that helps.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_156",
+    "raw_text": "@AppleSupport over 24 hours, yall have been no help.",
+    "clean_text": "over 24 hours, yall have been no help.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_157",
+    "raw_text": "@AppleSupport Yep. Through iphone.",
+    "clean_text": "Yep. Through iphone.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@148419 Is the iPhone activated and we're through all the set up screens? Please send us a DM so we can continue there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_158",
+    "raw_text": "@AppleSupport Just deleted and reinstalled the app, but it doesn’t make any difference",
+    "clean_text": "Just deleted and reinstalled the app, but it doesn’t make any difference",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@119048 You did a great job going through those steps. DM us here to contiue further:",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_159",
+    "raw_text": "@AppleSupport why is my iphone not charging? i don’t got time for this shit dawg",
+    "clean_text": "why is my iphone not charging? i don’t got time for this shit dawg",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@123685 It's important for your iPhone to charge reliably. To start, check out these steps: https://t.co/uqxquyfdn0",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_160",
+    "raw_text": "@AppleSupport Is there a new fishing email going around? I got a suspicious 1 saying I signed up for magic piano, no such thing on my device",
+    "clean_text": "Is there a new fishing email going around? I got a suspicious 1 saying I signed up for magic piano, no such thing on my device",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_161",
+    "raw_text": "@115858 @AppleSupport : Electricity has started passing through my iPhone7plus.. When I hold my phone while charging.. literally I can feel current passing through it.. Very disappointing with this phone..",
+    "clean_text": ": Electricity has started passing through my iPhone7plus.. When I hold my phone while charging.. literally I can feel current passing through it.. Very disappointing with this phone..",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@144686 Let's work together in DM where we can investigate the behavior you're experiencing. We're here for you. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_162",
+    "raw_text": "@AppleSupport just done that 👍",
+    "clean_text": "just done that 👍",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@123699 Perfect, thanks. Be sure to reach out if you need us again. Take care.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_163",
+    "raw_text": "Okay my iPhone is recognizing my sleep pattern what the actual fuck @AppleSupport I’m creeped out",
+    "clean_text": "Okay my iPhone is recognizing my sleep pattern what the actual fuck I’m creeped out",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_164",
+    "raw_text": "@AppleSupport @115858 can you help or nah? https://t.co/1lAvjP9yu1",
+    "clean_text": "can you help or nah?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@130261 We want to help you. DM us, and let us know what's going on. We'll look into this. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_165",
+    "raw_text": "@AppleSupport I️ have the latest software.",
+    "clean_text": "I️ have the latest software.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@127769 The latest iOS version that's out is iOS 11.1. We'll be more than happy to assist you further with this issue. Please DM us. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_166",
+    "raw_text": "Bought a new macbook pro just 2 mounts ago and the \"n\" key isn't working properly. @115858 I'm coming.. \n@AppleSupport",
+    "clean_text": "Bought a new macbook pro just 2 mounts ago and the \"n\" key isn't working properly. I'm coming..",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@135081 We'd like to help. What happens when you press the \"n\" key currently? Does it not respond at all, or does it show the wrong letter? Let us know via DM. We'll go from there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_167",
+    "raw_text": "@AppleSupport Thank you for following up. I spoke with live chat support, and the device needs to be brought in. Thanks for the response.",
+    "clean_text": "Thank you for following up. I spoke with live chat support, and the device needs to be brought in. Thanks for the response.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@141084 You're welcome. We'll be here to help if you have questions in the future.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_168",
+    "raw_text": "Hey @AppleSupport my keyboard is going haywire when I️ type I️ #help https://t.co/v7Tfc47sgK",
+    "clean_text": "Hey my keyboard is going haywire when I️ type I️ #help",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@122932 We'd like to help. Which software version are you using on your iPhone?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_169",
+    "raw_text": "@AppleSupport  You get the worst customer service of the year award.  No calls, no emails, just empty #lies.  But that’s what is #expected from #Apple. https://t.co/vhymmLEpvq",
+    "clean_text": "You get the worst customer service of the year award. No calls, no emails, just empty #lies. But that’s what is #expected from #Apple.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@144024 We're glad you reached out and we definitely want to look into this. Send us a DM to get started: https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_170",
+    "raw_text": "Why the website doesn’t work?! @115858 @AppleSupport",
+    "clean_text": "Why the website doesn’t work?!",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@142518 Hi there. Which site are you trying to visit? Have you tried a different browser? Let us know.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_171",
+    "raw_text": "@AppleSupport iPad is on 11.0.2 and iMac is 10.12.6. Same iCloud account on all devices",
+    "clean_text": "iPad is on 11.0.2 and iMac is 10.12.6. Same iCloud account on all devices",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@143491 Let's update your iPad to the latest version of iOS: https://t.co/80YRnjDFDk If the issue persists after updating, send us a DM and we will continue working with you. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_172",
+    "raw_text": "Why is it my Cloud Account has deleted items I had Not Moved into the Trash? Policy Violations by Illegitimate Assumed Power...@115858 @AppleSupport @2912 @136082 @136083 @4831 @120330 @136084 @131187 @119737 https://t.co/8OT2GR4Z46",
+    "clean_text": "Why is it my Cloud Account has deleted items I had Not Moved into the Trash? Policy Violations by Illegitimate Assumed Power...",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@136081 That’s not what we’d like to hear. Can you start by letting us know more about what has happened in DM? We’d like to confirm what files were lost as well as the free available space on your iCloud account. You can follow the steps here: https://t.co/7vNd2QAL5s https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_173",
+    "raw_text": "@AppleSupport why are my I️’s changing not showing up correctly on any of my social media platforms? https://t.co/GyRvpyVnkE",
+    "clean_text": "why are my I️’s changing not showing up correctly on any of my social media platforms?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_174",
+    "raw_text": "@AppleSupport I need help with something related to iTunes :) can you help?",
+    "clean_text": "I need help with something related to iTunes :) can you help?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@151821 We'd be happy to help. What's going on with iTunes? Which device are you using iTunes on?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_175",
+    "raw_text": "@AppleSupport Hey guys, I did everything required (twice) to get the achievement for today and I still haven’t gotten it. Help?",
+    "clean_text": "Hey guys, I did everything required (twice) to get the achievement for today and I still haven’t gotten it. Help?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@142177 Let's look into that. Send us a DM and we'll go from there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_176",
+    "raw_text": "@AppleSupport I wanted to know if an iPhone 8 plus bought in USA will have a valid warranty in India?",
+    "clean_text": "I wanted to know if an iPhone 8 plus bought in USA will have a valid warranty in India?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@152255 That's a great question, and the answer is yes. You can get the full Apple warranty details here: https://t.co/JkDd3a6A1y",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_177",
+    "raw_text": "@AppleSupport @115861 We’re going to need you to share the answers Angela. I️ can’t stand this!",
+    "clean_text": "We’re going to need you to share the answers Angela. I️ can’t stand this!",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_178",
+    "raw_text": "@AppleSupport why do I not have my October challenge ring after competition? 😡😡",
+    "clean_text": "why do I not have my October challenge ring after competition? 😡😡",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@117968 If you complete an achievement, but don't earn the award, you will earn the award within 9 days of completing the challenge.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_179",
+    "raw_text": "@AppleSupport Control centre",
+    "clean_text": "Control centre",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@149734 That's expected behavior with iOS 11, for more information about the changes to Wi-Fi and Bluetooth in Control Center, check out the article we sent.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_180",
+    "raw_text": "the fix isn't available for my machine @115858 @AppleSupport !\n\nhttps://t.co/GFRIfGPjon",
+    "clean_text": "the fix isn't available for my machine !",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@136050 We understand the importance of your Mac's security. Let's look into this together in DM. Send us a message and we will follow up there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_181",
+    "raw_text": "@AppleSupport Do I have to do an account recovery?? Which I have to wait 24 hours for??",
+    "clean_text": "Do I have to do an account recovery?? Which I have to wait 24 hours for??",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@125905 Recovery should only be used as a last step. First, contact our Account Security team by going to https://t.co/UJm15vmMM2",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_182",
+    "raw_text": "screw an apple device instead of the consumer. 90 days of ordeal and still counting!!! @7396 @AppleSupport @115858 https://t.co/YpPyDmimVN",
+    "clean_text": "screw an apple device instead of the consumer. 90 days of ordeal and still counting!!!",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@148924 We'd like to hear more about what's happening and help any way we can. Please DM us a bit more detail about what's going on. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_183",
+    "raw_text": "@AppleSupport Can we please stop this shite where clicking the WiFi button in the control centre doesn’t turn it off? \nLet me choose when I want it to come back!",
+    "clean_text": "Can we please stop this shite where clicking the WiFi button in the control centre doesn’t turn it off? Let me choose when I want it to come back!",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@142828 Thanks for reaching out to us for support. The way that works in Control Center has changed. Read more here, and DM if you need more help:\n\nhttps://t.co/vzVz37YMv0 https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_184",
+    "raw_text": "@AppleSupport @116333 i want put my apps down there. That’s not possible. It’s easier to reach rather than go to the top. https://t.co/Wsp6vBFlJm",
+    "clean_text": "i want put my apps down there. That’s not possible. It’s easier to reach rather than go to the top.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@128330 Try using Reachability. Lightly double-tap the Home button. This brings items at the top of the screen down to the lower half.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_185",
+    "raw_text": "@AppleSupport Well if that don't beat all. Much obliged. A+ customer service. 👍",
+    "clean_text": "Well if that don't beat all. Much obliged. A+ customer service. 👍",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@142829 Happy we could help. If there's anything you need in the future, reach out. Take Care.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_186",
+    "raw_text": "@AppleSupport  https://t.co/8TmQdma8bQ",
+    "clean_text": "",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_187",
+    "raw_text": "@AppleSupport I know, it makes me sad. Nope, other sounds are fine. Just seems to be calls and texts (WhatsApp).. it’s very ad hoc!",
+    "clean_text": "I know, it makes me sad. Nope, other sounds are fine. Just seems to be calls and texts (WhatsApp).. it’s very ad hoc!",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@153193 Don't be sad, we're here to help you. Let's take a look at the App Store, do you have any updates listed for WhatsApp?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_188",
+    "raw_text": "@AppleSupport Thank you will try now.",
+    "clean_text": "Thank you will try now.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_189",
+    "raw_text": "@AppleSupport I just did, same issue persists.",
+    "clean_text": "I just did, same issue persists.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@124894 Have you recently installed any Safari extensions? You can check this under Safari tab &gt; Preferences &gt; Extensions.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_190",
+    "raw_text": "@AppleSupport @115858 I am waiting from 25 days for the issue in my iPhone to be resolved .how much time will it take?",
+    "clean_text": "I am waiting from 25 days for the issue in my iPhone to be resolved .how much time will it take?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_191",
+    "raw_text": "@115858 @AppleSupport hello are all the lines closed for tonight #help",
+    "clean_text": "hello are all the lines closed for tonight #help",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@115859 What's going on? We're hapy to help if we can. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_192",
+    "raw_text": "@144223 @AppleSupport 🤦‍♂️🤦‍♂️🤦‍♂️🤦‍♂️",
+    "clean_text": "🤦‍♂️🤦‍♂️🤦‍♂️🤦‍♂️",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_193",
+    "raw_text": "@143483 @AppleSupport I have the same problem. Would be interested in hearing about the solution.",
+    "clean_text": "I have the same problem. Would be interested in hearing about the solution.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@143482 We want to be sure you get the most out of your iPhone's performance. We're happy to help you. Which iOS are you running currently? You can go to Settings &gt; General &gt; About to locate the version.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_194",
+    "raw_text": "@AppleSupport 6s + and version 11.1.2 but this ain’t the first time it’s happened.",
+    "clean_text": "6s + and version 11.1.2 but this ain’t the first time it’s happened.",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@134135 When you look in contacts, do you see any possible duplicates of a deleted number?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_195",
+    "raw_text": "Why does my Siri sound fucked up!!! Anyone else having this problem?? @AppleSupport",
+    "clean_text": "Why does my Siri sound fucked up!!! Anyone else having this problem??",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@139289 We'd be happy to look into this with you. Send us a DM and we'll continue working from there. https://t.co/GDrqU22YpT",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_196",
+    "raw_text": "@AppleSupport It's working now",
+    "clean_text": "It's working now",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@137628 Glad to hear that things are working as expected once again. Let us know if we can be of any other assistance, and have a wonderful rest of your day!",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_197",
+    "raw_text": "@AppleSupport When will fix the problem with activation (error 0xE8000013)? Or your phones are now disposable?",
+    "clean_text": "When will fix the problem with activation (error 0xE8000013)? Or your phones are now disposable?",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "@123523 Let's explore this in more details. Which device is exact iOS version are you using? When are you receiving this error?",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_198",
+    "raw_text": "@AppleSupport This wasn’t the case 4 hours ago though. I was using PayPal with the same Family Sharing Account quite happily until this morning...",
+    "clean_text": "This wasn’t the case 4 hours ago though. I was using PayPal with the same Family Sharing Account quite happily until this morning...",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_199",
+    "raw_text": "I can’t receive or send any texts all of a sudden.... wtf @115858 @AppleSupport @ATT @117735",
+    "clean_text": "I can’t receive or send any texts all of a sudden.... wtf",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  },
+  {
+    "id": "golden_200",
+    "raw_text": "@AppleSupport 👍🏼 but @115858 release another small phone as dimensions of 5s, it is very handy n comfortable to hold...com’on @115858 u can do that 😊",
+    "clean_text": "👍🏼 but release another small phone as dimensions of 5s, it is very handy n comfortable to hold...com’on u can do that 😊",
+    "stratum": "stratified_low_confidence",
+    "brand_reply_actual": "We know how important your Apple device is. Please review support tips at https://support.apple.com.",
+    "true_intent": "OTHER_GENERAL",
+    "true_action": "AUTO_HANDLE",
+    "notes": "General inquiry routable to support.apple.com."
+  }
+]

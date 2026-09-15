@@ -1,0 +1,8 @@
+{
+  "intent": "HARDWARE_REPAIR",
+  "confidence": 0.81,
+  "draft_reply": "We know how important your device is! Check official repair options and service pricing at https://support.apple.com/iphone/repair.",
+  "action": "AUTO_HANDLE",
+  "reason": "General repair estimates and official service program notices can be auto-handled with KB link.",
+  "retrieval_grounding": "@143054 Good to know. Please send us a DM to continue looking into this. https://t.co/GDrqU22YpT..."
+}

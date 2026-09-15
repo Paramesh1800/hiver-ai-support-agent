@@ -1,0 +1,19 @@
+{
+  "groundedness": 5.0,
+  "correctness": 5.0,
+  "tone_fit": 5.0,
+  "actionability": 5.0,
+  "overall_score": 5.0,
+  "judge_variance": 0.0,
+  "justifications": {
+    "groundedness": 5,
+    "groundedness_justification": "Response grounds resolution using official Apple support URLs.",
+    "correctness": 5,
+    "correctness_justification": "No invented policies or hallucinated support links detected.",
+    "tone_fit": 5,
+    "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
+    "actionability": 5,
+    "actionability_justification": "Provides concrete, clear next step for customer.",
+    "overall_score": 5.0
+  }
+}

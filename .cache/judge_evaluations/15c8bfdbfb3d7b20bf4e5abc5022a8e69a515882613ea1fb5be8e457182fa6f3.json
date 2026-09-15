@@ -1,0 +1,19 @@
+{
+  "groundedness": 2.0,
+  "correctness": 3.0,
+  "tone_fit": 5.0,
+  "actionability": 5.0,
+  "overall_score": 3.75,
+  "judge_variance": 0.0,
+  "justifications": {
+    "groundedness": 2,
+    "groundedness_justification": "Response lacks grounded KB URLs or specific resolution routing.",
+    "correctness": 3,
+    "correctness_justification": "Response relies on generic canned template phrasing.",
+    "tone_fit": 5,
+    "tone_fit_justification": "Matches empathetic, professional @AppleSupport brand voice.",
+    "actionability": 5,
+    "actionability_justification": "Provides concrete, clear next step for customer.",
+    "overall_score": 3.75
+  }
+}

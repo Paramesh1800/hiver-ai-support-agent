@@ -1,0 +1,8 @@
+{
+  "intent": "ACCOUNT_SECURITY",
+  "confidence": 0.81,
+  "draft_reply": "Your account security is our top priority. Please verify your identity and reset your password securely at https://iforgot.apple.com.",
+  "action": "ESCALATE",
+  "reason": "Account security and password resets involve sensitive user credentials and must be authenticated on secure Apple web portals.",
+  "retrieval_grounding": "@142832 Thanks for reaching out. We want to help look into this. What kind of issues are you having ..."
+}

@@ -1,0 +1,8 @@
+{
+  "intent": "DEVICE_TRADEIN_SHIPPING",
+  "confidence": 0.81,
+  "draft_reply": "Let's look into your order status! Please send us a Direct Message with your order details so we can assist you safely.",
+  "action": "ESCALATE",
+  "reason": "Tracking specific order numbers requires private Direct Message (DM) to protect PII.",
+  "retrieval_grounding": "@120639 That is not the experience we want you to have. We'd be happy to look into this with you. Ca..."
+}

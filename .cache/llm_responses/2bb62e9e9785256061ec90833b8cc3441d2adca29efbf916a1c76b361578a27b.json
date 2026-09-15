@@ -1,0 +1,8 @@
+{
+  "intent": "BILLING_SUBSCRIPTIONS",
+  "confidence": 0.81,
+  "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
+  "action": "ESCALATE",
+  "reason": "Refund requests and payment investigations require authenticated user session on reportaproblem.apple.com.",
+  "retrieval_grounding": "@134142 Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into..."
+}

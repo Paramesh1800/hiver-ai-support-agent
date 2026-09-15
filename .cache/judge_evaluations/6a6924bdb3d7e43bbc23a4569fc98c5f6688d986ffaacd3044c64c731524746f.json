@@ -1,0 +1,19 @@
+{
+  "groundedness": 2.0,
+  "correctness": 5.0,
+  "tone_fit": 3.0,
+  "actionability": 2.0,
+  "overall_score": 3.0,
+  "judge_variance": 0.0,
+  "justifications": {
+    "groundedness": 2,
+    "groundedness_justification": "Response lacks grounded KB URLs or specific resolution routing.",
+    "correctness": 5,
+    "correctness_justification": "No invented policies or hallucinated support links detected.",
+    "tone_fit": 3,
+    "tone_fit_justification": "Tone is adequate but slightly robotic.",
+    "actionability": 2,
+    "actionability_justification": "Lacks actionable instruction for customer.",
+    "overall_score": 3.0
+  }
+}

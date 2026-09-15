@@ -1,10 +1,22 @@
-node_modules/
+# Raw dataset files (gitignored due to size)
+data/raw/
+*.csv
+
+# Exceptions: Keep subsample and golden dataset files
+!data/subsample/*.json
+!data/golden/*.csv
+!data/golden/*.json
+!data/*.json
+
+# Environment variables & API keys
+.env
+*.env
+
+# Python & IDE cache
 __pycache__/
 *.pyc
-.DS_Store
-.vscode/
+.venv/
+venv/
 .idea/
-cicd-demo-app/
-hiver-ai-support-agent/
-reachinbox-email-scheduler/
-tichi-qa-assignment/
+.vscode/
+.DS_Store

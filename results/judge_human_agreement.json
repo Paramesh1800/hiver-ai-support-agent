@@ -1,0 +1,6 @@
+{
+  "sample_size": 50,
+  "cohens_kappa_quadratic": 0.3902,
+  "spearman_correlation": 0.3932,
+  "judge_trustworthy": false
+}
