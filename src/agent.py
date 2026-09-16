@@ -12,6 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.config import (
     BASE_DIR,
     SUBSAMPLE_FILE,
+    GOLDEN_LABELLED_FILE,
     OPENAI_API_KEY,
     RANDOM_SEED
 )
@@ -22,20 +23,32 @@ CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 class LLMSupportAgent:
     """
-    Main LLM Support Agent with Retrieval Grounding over historical @AppleSupport responses,
-    Response Prompt-Hash Caching, and Guardrail Escalation Rules.
+    Main LLM Support Agent with Retrieval Grounding over HELD-OUT historical @AppleSupport responses
+    (Golden Set strictly EXCLUDED from retrieval index), Response Prompt-Hash Caching, and Guardrail Escalation.
     """
     def __init__(self, use_api: bool = False, api_key: str = None):
         self.use_api = use_api or bool(OPENAI_API_KEY)
         self.api_key = api_key or OPENAI_API_KEY
         self.taxonomy = INTENT_TAXONOMY
         self.subsample_data = []
-        self._load_retrieval_corpus()
+        self._load_heldout_retrieval_corpus()
 
-    def _load_retrieval_corpus(self):
-        if SUBSAMPLE_FILE.exists():
-            with open(SUBSAMPLE_FILE, 'r', encoding='utf-8') as f:
-                self.subsample_data = json.load(f)
+    def _load_heldout_retrieval_corpus(self):
+        if not SUBSAMPLE_FILE.exists():
+            return
+
+        with open(SUBSAMPLE_FILE, 'r', encoding='utf-8') as f:
+            all_data = json.load(f)
+
+        # STRICT DATA LEAKAGE FIX: Exclude all 200 Golden Set items from retrieval corpus
+        golden_texts = set()
+        if GOLDEN_LABELLED_FILE.exists():
+            with open(GOLDEN_LABELLED_FILE, 'r', encoding='utf-8') as f:
+                golden_data = json.load(f)
+                golden_texts = {g.get("raw_text") for g in golden_data}
+
+        self.subsample_data = [d for d in all_data if d.get("raw_text") not in golden_texts]
+        print(f"LLMSupportAgent retrieval index loaded HELD-OUT corpus: {len(self.subsample_data)} records (Golden Set of {len(golden_texts)} items strictly EXCLUDED).")
 
     def _get_cache(self, prompt_key: str) -> dict:
         cache_file = CACHE_DIR / f"{prompt_key}.json"
@@ -68,7 +81,7 @@ class LLMSupportAgent:
         return best_intent, confidence
 
     def retrieve_historical_context(self, text: str) -> str:
-        """Finds closest historical @AppleSupport resolution reply as retrieval context."""
+        """Finds closest historical @AppleSupport resolution reply from held-out corpus as retrieval context."""
         text_words = set(re.findall(r'\w+', text.lower()))
         best_match = ""
         max_overlap = 0
@@ -102,7 +115,7 @@ class LLMSupportAgent:
             action = intent_info["default_action"]
             reason = intent_info["escalation_reason"]
 
-        # Step 3: Grounded Reply Generation with Historical Retrieval
+        # Step 3: Grounded Reply Generation with Retrieval over Held-Out Corpus
         retrieved_context = self.retrieve_historical_context(customer_tweet)
         link = intent_info["knowledge_link"]
 

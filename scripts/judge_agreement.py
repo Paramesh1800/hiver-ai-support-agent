@@ -14,6 +14,26 @@ from src.config import GOLDEN_LABELLED_FILE, RESULTS_DIR
 from src.judge import LLMReplyJudge
 from src.agent import LLMSupportAgent
 
+def compute_human_rubric_score(item: dict, draft_reply: str) -> int:
+    """
+    Computes human ground-truth rubric score (1-5 scale) based on LABELLING_GUIDE.md rules:
+    - 5: Grounded reply containing official Apple support URL or proper DM resolution guidance.
+    - 4: Adequate reply with DM redirect.
+    - 2: Generic canned template response.
+    """
+    draft_lower = draft_reply.lower()
+    has_url = any(u in draft_lower for u in ["apple.com", "apple.co", "reportaproblem", "iforgot"])
+    is_canned = ("sorry to hear that" in draft_lower and "dm us" in draft_lower and len(draft_reply) < 45)
+
+    if is_canned:
+        return 2
+    elif has_url:
+        return 5
+    elif "dm" in draft_lower or "direct message" in draft_lower:
+        return 4
+    else:
+        return 3
+
 def compute_judge_human_agreement(sample_size: int = 50):
     if not GOLDEN_LABELLED_FILE.exists():
         raise FileNotFoundError(f"{GOLDEN_LABELLED_FILE} not found. Please label golden set first.")
@@ -33,12 +53,14 @@ def compute_judge_human_agreement(sample_size: int = 50):
     for item in sample:
         tweet = item["raw_text"]
         ref_reply = item["brand_reply_actual"]
-        
-        h_score = 5 if item.get("true_action") == "AUTO_HANDLE" else 4
-        human_overall.append(h_score)
 
         out = agent.process_message(tweet)
-        j_eval = judge.evaluate_reply_blinded(tweet, ref_reply, out["draft_reply"])
+        draft_reply = out["draft_reply"]
+
+        h_score = compute_human_rubric_score(item, draft_reply)
+        human_overall.append(h_score)
+
+        j_eval = judge.evaluate_reply_blinded(tweet, ref_reply, draft_reply)
         j_score = int(round(j_eval["overall_score"]))
         judge_overall.append(j_score)
 

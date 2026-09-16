@@ -5,7 +5,6 @@ import json
 import argparse
 from pathlib import Path
 
-# Fix sys.path FIRST before importing project modules
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import numpy as np
@@ -15,6 +14,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 from src.config import (
     SUBSAMPLE_FILE,
+    GOLDEN_LABELLED_FILE,
     RANDOM_SEED
 )
 from intent_taxonomy import INTENT_TAXONOMY, check_mandatory_escalation
@@ -43,9 +43,9 @@ class TrivialBaselineAgent:
 class SimpleBaselineAgent:
     """
     Simple Baseline:
-    - Intent: TF-IDF + Logistic Regression trained on subsample
+    - Intent: TF-IDF + Logistic Regression trained on held-out subsample (golden set strictly EXCLUDED)
     - Action: Keyword / Regex ruleset for ESCALATE decision
-    - Reply: Nearest-neighbour retrieval (TF-IDF cosine similarity) returning actual brand reply
+    - Reply: Nearest-neighbour retrieval (TF-IDF cosine similarity) over held-out subsample
     """
     def __init__(self):
         self.vectorizer = TfidfVectorizer(max_features=2500, stop_words='english', ngram_range=(1, 2))
@@ -53,19 +53,30 @@ class SimpleBaselineAgent:
         self.subsample_data = []
         self.subsample_matrix = None
         self.is_fitted = False
-        self._fit_on_subsample()
+        self._fit_on_heldout_subsample()
 
-    def _fit_on_subsample(self):
+    def _fit_on_heldout_subsample(self):
         if not SUBSAMPLE_FILE.exists():
             print(f"Warning: {SUBSAMPLE_FILE} not found. Baseline running in un-fitted mode.")
             return
 
         with open(SUBSAMPLE_FILE, 'r', encoding='utf-8') as f:
-            self.subsample_data = json.load(f)
+            all_subsample = json.load(f)
+
+        # STRICT DATA LEAKAGE FIX: Exclude all 200 Golden Set texts from fitting/retrieval corpus
+        golden_texts = set()
+        if GOLDEN_LABELLED_FILE.exists():
+            with open(GOLDEN_LABELLED_FILE, 'r', encoding='utf-8') as f:
+                golden_data = json.load(f)
+                golden_texts = {g.get("raw_text") for g in golden_data}
+
+        # Filter held-out corpus
+        self.subsample_data = [d for d in all_subsample if d.get("raw_text") not in golden_texts]
+        print(f"SimpleBaselineAgent fitting on HELD-OUT corpus: {len(self.subsample_data)} records (Golden Set of {len(golden_texts)} items strictly EXCLUDED).")
 
         clean_texts = [d.get("clean_text", "") for d in self.subsample_data]
         
-        # Pseudo-labels for training logistic regression from keyword taxonomy heuristics
+        # Heuristic intent pseudo-labels for fitting logistic regression
         train_labels = []
         for d in self.subsample_data:
             txt = d.get("clean_text", "").lower()
@@ -76,11 +87,9 @@ class SimpleBaselineAgent:
                     break
             train_labels.append(intent)
 
-        # Fit TF-IDF Vectorizer and Logistic Regression
         self.subsample_matrix = self.vectorizer.fit_transform(clean_texts)
         self.clf.fit(self.subsample_matrix, train_labels)
         self.is_fitted = True
-        print(f"SimpleBaselineAgent successfully fitted on {len(self.subsample_data)} subsample records.")
 
     def process_message(self, customer_tweet: str, context: str = "") -> dict:
         if not self.is_fitted or not self.subsample_data:
@@ -102,7 +111,6 @@ class SimpleBaselineAgent:
         tweet_lower = customer_tweet.lower()
         mandatory_esc, reason_esc = check_mandatory_escalation(customer_tweet)
 
-        # Keyword list for simple baseline escalation rules
         escalate_kws = ["order #", "order number", "serial number", "refund", "charged", "credit card", "apple id", "password", "locked", "hacked", "stolen", "lawyer", "sue", "police", "unauthorized"]
         has_esc_kw = any(kw in tweet_lower for kw in escalate_kws)
 
@@ -116,7 +124,7 @@ class SimpleBaselineAgent:
             action = "AUTO_HANDLE"
             reason = "Keyword rule set allowed auto-handling."
 
-        # 3. Reply via Nearest-Neighbour Retrieval (TF-IDF Cosine Similarity)
+        # 3. Nearest-Neighbour Retrieval over Held-Out Subsample
         similarities = cosine_similarity(query_vec, self.subsample_matrix)[0]
         best_idx = int(np.argmax(similarities))
         retrieved_record = self.subsample_data[best_idx]
@@ -137,11 +145,8 @@ if __name__ == "__main__":
     parser.add_argument("--limit", type=int, default=5, help="Number of test tweets to evaluate")
     args = parser.parse_args()
 
-    print("Testing Trivial Baseline Agent:")
     trivial = TrivialBaselineAgent()
-    sample_tweet = "@AppleSupport I see an unauthorized charge of $14.99 on my credit card! Refund please."
-    print(json.dumps(trivial.process_message(sample_tweet), indent=2))
-
-    print("\nTesting Simple Baseline Agent (TF-IDF + Logistic Regression + Cosine Retrieval):")
     simple = SimpleBaselineAgent()
+    sample_tweet = "@AppleSupport I see an unauthorized charge of $14.99 on my credit card! Refund please."
+    print("Simple baseline prediction:")
     print(json.dumps(simple.process_message(sample_tweet), indent=2))
