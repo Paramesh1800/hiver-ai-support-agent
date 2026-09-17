@@ -1,0 +1,19 @@
+{
+  "groundedness": 3.0,
+  "correctness": 5.0,
+  "tone_fit": 5.0,
+  "actionability": 5.0,
+  "overall_score": 4.5,
+  "judge_variance": 0.0,
+  "justifications": {
+    "groundedness": 3,
+    "groundedness_justification": "Grounds resolution in official Apple KB links or appropriate DM channel.",
+    "correctness": 5,
+    "correctness_justification": "Accurate guidance matching official Apple resolution policies.",
+    "tone_fit": 5,
+    "tone_fit_justification": "Empathetic, professional @AppleSupport brand voice.",
+    "actionability": 5,
+    "actionability_justification": "Clear, actionable next step provided to the customer.",
+    "overall_score": 4.5
+  }
+}

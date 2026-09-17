@@ -1,0 +1,8 @@
+{
+  "intent": "BILLING_SUBSCRIPTIONS",
+  "confidence": 0.96,
+  "draft_reply": "We can help you investigate that charge! You can review your purchase history or request a refund at https://reportaproblem.apple.com.",
+  "action": "ESCALATE",
+  "reason": "Contains sensitive PII (Order/Serial/Financial info) requiring private DM handling.",
+  "retrieval_grounding": "@117454 Hi! We're happy to help. Join us in DM with the macOS version installed on your iMac and mor..."
+}

@@ -1,0 +1,19 @@
+{
+  "groundedness": 1.0,
+  "correctness": 4.0,
+  "tone_fit": 4.0,
+  "actionability": 2.0,
+  "overall_score": 2.75,
+  "judge_variance": 0.0,
+  "justifications": {
+    "groundedness": 1,
+    "groundedness_justification": "Generic canned response fails to address the specific issue or provide relevant KB links.",
+    "correctness": 4,
+    "correctness_justification": "Response is not factually incorrect, but lacks specific resolution content.",
+    "tone_fit": 4,
+    "tone_fit_justification": "Polite and empathetic tone, though completely generic.",
+    "actionability": 2,
+    "actionability_justification": "Generic DM redirect without specifying what information the user should prepare.",
+    "overall_score": 2.75
+  }
+}
